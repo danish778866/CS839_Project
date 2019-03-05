@@ -58,7 +58,7 @@ def get_prefix_suffix(words, index, num_words):
     current_suffix = current_suffix.replace("<person>", "").replace("</person>", "")
     current_prefix = re.sub(r'[^\w\s]', '', current_prefix)
     current_suffix = re.sub(r'[^\w\s]', '', current_suffix)
-    return current_prefix, current_suffix
+    return current_prefix.strip(), current_suffix.strip()
 
 def generate_candidates_labels(words, threshold):
     num_words = len(words)
