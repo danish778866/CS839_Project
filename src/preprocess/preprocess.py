@@ -43,17 +43,37 @@ def clean_word(word):
     word = re.sub(r'[^\w\s<>/]', '', word)
     return word
 
+def get_prefix_suffix(words, index, num_words):
+    current_prefix = "N/A"
+    current_suffix = "N/A"
+    if index == 1:
+        current_prefix = words[0]
+    elif index > 1:
+        current_prefix = words[index - 2] + " " + words[index - 1]
+    if index == num_words - 2:
+        current_suffix = words[num_words - 1]
+    elif index < num_words - 2:
+        current_suffix = words[index + 1] + " " + words[index + 2]
+    current_prefix = current_prefix.replace("<person>", "").replace("</person>", "")
+    current_suffix = current_suffix.replace("<person>", "").replace("</person>", "")
+    current_prefix = re.sub(r'[^\w\s]', '', current_prefix)
+    current_suffix = re.sub(r'[^\w\s]', '', current_suffix)
+    return current_prefix, current_suffix
+
 def generate_candidates_labels(words, threshold):
     num_words = len(words)
     gen_threshold = threshold
     is_person = False
     candidates = []
     labels = []
+    prefix = []
+    suffix = []
     for i in range(num_words):
         if i + threshold > num_words - 1:
             gen_threshold = num_words - i
         prune = False
         current_word = clean_word(words[i])
+        current_prefix, current_suffix = get_prefix_suffix(words, i, num_words)
         end_person = False
         not_title = True
         if current_word in ["Sir", "Mr", "Ms", "Dr", "Prof", "St"]:
@@ -79,6 +99,8 @@ def generate_candidates_labels(words, threshold):
                     labels.append(0)
             if not_title:
                 candidates.append(current_word)
+                prefix.append(current_prefix)
+                suffix.append(current_suffix)
             
         j = 1
         if is_person:
@@ -87,6 +109,7 @@ def generate_candidates_labels(words, threshold):
             if is_negative(words[i + j]):
                 prune = True
             else:
+                current_prefix, current_suffix = get_prefix_suffix(words, i + j, num_words)
                 current_word = current_word + " " + clean_word(words[i + j])
                 if "<person>" in current_word and "</person>" in current_word:
                     current_word = current_word.replace("<person>", "").replace("</person>", "")
@@ -102,8 +125,10 @@ def generate_candidates_labels(words, threshold):
                 else:
                     labels.append(0)
                 candidates.append(current_word)
+                prefix.append(current_prefix)
+                suffix.append(current_suffix)
                 j = j + 1
-    return candidates, labels
+    return candidates, labels, prefix, suffix
 
 def write_data(path, content):
     f = open(path, "w")
@@ -118,10 +143,14 @@ def preprocess_driver(data_dir, candidates_dir, labels_dir):
         words = preprocess_labeled_files(name)  
         file_name = os.path.basename(name)
         candidates_file = candidates_dir + os.sep + file_name 
+        prefix_file = candidates_dir + os.sep + file_name + ".pre"
+        suffix_file = candidates_dir + os.sep + file_name + ".suf"
         labels_file = labels_dir + os.sep + file_name 
-        candidates, labels = generate_candidates_labels(words, 4)
+        candidates, labels, prefix, suffix = generate_candidates_labels(words, 4)
         write_data(candidates_file, candidates)
         write_data(labels_file, labels)
+        write_data(prefix_file, prefix)
+        write_data(suffix_file, suffix)
 
 
 
