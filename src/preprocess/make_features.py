@@ -1,5 +1,6 @@
 from nltk.corpus import wordnet
 from nltk.corpus import wordnet as wn
+import csv
 
 def tag_word(w):
     pos_l = set()
@@ -28,7 +29,7 @@ def word(w):
     else:
         return True
 
-def preprocess_labeled_files(path1):
+def is_valid(path1):
     valid_cand = []
     with open(path1) as candidates:
         current_line = candidates.readline()
@@ -68,36 +69,71 @@ def nvasr(path):
     with open(path) as list:
         current_line = list.readline()
         while current_line:
-            print(current_line)
+            #print(current_line)
             phrase = current_line.split()
             cur_tag =[0,0,0,0,0]
             for w in phrase:
-                print(w)
+                #print(w)
                 this_tag = tag_word(w.lower())
-                print(this_tag)
+                #print(this_tag)
                 i=0
                 while i<5:
                     if this_tag[i]==1:
                         cur_tag[i]=1
                     i=i+1
-                print(cur_tag)
+                #print(cur_tag)
             tags.append(cur_tag)
             current_line = list.readline()
     list.close()
     return tags
 
+def has_apos(w):
+    result = w.find("'")
+    if result != -1:
+        return 1
+    else:
+        return 0
 
-valid_cand  = preprocess_labeled_files("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/all_candidates.txt")
-valid_pre = preprocess_labeled_files("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/all_prefixes.txt")
-valid_suff = preprocess_labeled_files("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/all_suffixes.txt")
+def apos_cand(path):
+    apos = []
+    with open(path) as candidates:
+        current_line = candidates.readline()
+        while current_line:
+            cand_words = current_line.split()
+            a=False
+            for w in cand_words:
+                a = has_apos(w) or a
+            if a == True:
+                apos.append(1)
+            else:
+                apos.append(0)
+            current_line = candidates.readline()
+    candidates.close()
+    return apos
+
+def write_array(path, content):
+    with open(path,"w+") as my_csv:
+        csvWriter = csv.writer(my_csv,delimiter=',')
+        csvWriter.writerows(content)
+
+valid_cand  = is_valid("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/all_candidates.txt")
+valid_pre = is_valid("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/all_prefixes.txt")
+valid_suff = is_valid("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/all_suffixes.txt")
 is_missing_pre = is_missing("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/all_prefixes.txt")
 is_missing_suf = is_missing("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/all_suffixes.txt")
 nvasr_cand = nvasr("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/all_candidates.txt")
+nvasr_pre = nvasr("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/all_prefixes.txt")
+nvasr_suff = nvasr("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/all_suffixes.txt")
+apos = apos_cand("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/all_candidates.txt")
 
 write_data("/Users/somya/Desktop/sem2/CS839_Project/data/features/is_valid_cand.csv", valid_cand)
 write_data("/Users/somya/Desktop/sem2/CS839_Project/data/features/is_valid_pre.csv", valid_pre)
 write_data("/Users/somya/Desktop/sem2/CS839_Project/data/features/is_valid_suff.csv", valid_suff)
-write_data("/Users/somya/Desktop/sem2/CS839_Project/data/features/is_missing_pre.txt", is_missing_pre)
-write_data("/Users/somya/Desktop/sem2/CS839_Project/data/features/is_missing_suf.txt", is_missing_suf)
-write_data("/Users/somya/Desktop/sem2/CS839_Project/data/features/tags_cand.txt",nvasr_cand)
+write_data("/Users/somya/Desktop/sem2/CS839_Project/data/features/is_missing_pre.csv", is_missing_pre)
+write_data("/Users/somya/Desktop/sem2/CS839_Project/data/features/is_missing_suf.csv", is_missing_suf)
+write_array("/Users/somya/Desktop/sem2/CS839_Project/data/features/tags_cand.csv",nvasr_cand)
+write_array("/Users/somya/Desktop/sem2/CS839_Project/data/features/tags_pre.csv",nvasr_pre)
+write_array("/Users/somya/Desktop/sem2/CS839_Project/data/features/tags_suff.csv",nvasr_suff)
+write_data("/Users/somya/Desktop/sem2/CS839_Project/data/features/has_apos_cand.csv", apos)
+
 
