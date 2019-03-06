@@ -15,8 +15,8 @@ Tories
 Lib
 Lib Dems
 Dems
-Mr Blair
-Blair
+Mr Blair's
+Blair</person>'s
 Tories'
 Lords
 Peers
@@ -38,10 +38,10 @@ David Davis
 Davis
 BBC
 BBC Radio
-BBC Radio Four
+BBC Radio Four's
 Radio
-Radio Four
-Four
+Radio Four's
+Four's
 World
 One
 Commons
@@ -64,6 +64,7 @@ Dem
 Mark
 Mark Oaten
 Oaten
+There's
 Human
 Human Rights
 Human Rights Watch

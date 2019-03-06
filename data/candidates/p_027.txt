@@ -6,8 +6,8 @@ Lord
 Lord Butler
 Butler
 Tony
-Tony Blair
-Blair
+Tony Blair's
+Blair</person>'s
 Iraq
 Tory
 Michael
@@ -29,6 +29,7 @@ Blair
 Cabinet
 Cabinet
 Cabinet
+It's
 Lord
 Lord Butler
 Butler
@@ -37,12 +38,12 @@ Spectator
 Mr Howard
 Howard
 Lord
-Lord Butler
-Butler
+Lord Butler's
+Butler</person>'s
 Blair
 Lord
-Lord Butler
-Butler
+Lord Butler's
+Butler</person>'s
 Iraq
 September
 Saddam
@@ -79,8 +80,8 @@ Well
 Parliament
 Bills
 Lord
-Lord Butler
-Butler
+Lord Butler's
+Butler</person>'s
 Cabinet
 Cabinet Secretary
 Secretary
@@ -91,10 +92,10 @@ Lord
 Lord Armstrong
 Armstrong
 BBC
-BBC Two
-BBC Two Newsnight
-Two
-Two Newsnight
+BBC Two's
+BBC Two's Newsnight
+Two's
+Two's Newsnight
 Newsnight
 Liberal
 Liberal Democrat
@@ -103,10 +104,10 @@ Menzies
 Menzies Campbell
 Campbell
 Lord
-Lord Butler
-Butler
-Mr Blair
-Blair
+Lord Butler's
+Butler</person>'s
+Mr Blair's
+Blair</person>'s
 Labour
 Jack
 Jack Cunningham
@@ -123,6 +124,6 @@ Radio
 Today
 Taken
 Robin
-Robin Butler
-Butler
+Robin Butler's
+Butler's
 Labour

@@ -12,8 +12,8 @@ Other
 Hunger
 Mr Makarov
 Makarov
-BBC
-BBC Newsnight
+BBC's
+BBC's Newsnight
 Newsnight
 Since
 Oleg
@@ -22,11 +22,11 @@ Gordievsky
 KGB
 British
 Commenting
-Mr Makarov
-Makarov
+Mr Makarov's
+Makarov</person>'s
 British
-Mr Makarov
-Makarov
+Mr Makarov's
+Makarov</person>'s
 David
 David Kahn
 David Kahn 

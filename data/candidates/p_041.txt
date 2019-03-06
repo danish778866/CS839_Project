@@ -39,8 +39,8 @@ Having
 Ms Hughes
 Hughes
 April
-Mr Blunkett
-Blunkett
+Mr Blunkett's
+Blunkett</person>'s
 Afghanistan
 Kosovo
 Britain
@@ -74,12 +74,12 @@ Hallam
 MPs
 Cabinet
 Labour
-Labour Party
-Labour Party National
-Labour Party National Executive
-Party
-Party National
-Party National Executive
+Labour Party's
+Labour Party's National
+Labour Party's National Executive
+Party's
+Party's National
+Party's National Executive
 National
 National Executive
 Executive
@@ -96,8 +96,8 @@ Labour
 Labour Party
 Party
 Tony
-Tony Blair
-Blair
+Tony Blair's
+Blair</person>'s
 Mr Blunkett
 Blunkett
 Labour
@@ -109,5 +109,5 @@ Tory
 Lucy
 Sadie
 Labradorcurlycoated
-Mr Blunkett
-Blunkett
+Mr Blunkett's
+Blunkett</person>'s

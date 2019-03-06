@@ -34,10 +34,10 @@ AynsleyGreen
 Oxford
 Oxford University
 University
-Guy
-Guy Hospital
-Guy Hospital Medical
-Guy Hospital Medical School
+Guy's
+Guy's Hospital
+Guy's Hospital Medical
+Guy's Hospital Medical School
 Hospital
 Hospital Medical
 Hospital Medical School

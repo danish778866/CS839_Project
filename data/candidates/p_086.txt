@@ -7,8 +7,8 @@ George
 George Bush
 Bush
 Tory
-Alzheimer
-Parkinson
+Alzheimer's
+Parkinson's
 Motor
 Motor Neurone
 Neurone
@@ -19,7 +19,7 @@ Mr Howard
 Howard
 Politicians
 Briton
-Parkinson
+Parkinson's
 Multiple
 Multiple Sclerosis
 Sclerosis
@@ -29,7 +29,7 @@ Motor Neurone Disease
 Neurone
 Neurone Disease
 Disease
-Alzheimer
+Alzheimer's
 Mr Howard
 Howard
 More
@@ -44,11 +44,11 @@ Howard
 Westminster
 Conservative
 Conservative National
-Conservative National Women
-Conservative National Women Committee
+Conservative National Women's
+Conservative National Women's Committee
 National
-National Women
-National Women Committee
-Women
-Women Committee
+National Women's
+National Women's Committee
+Women's
+Women's Committee
 Committee

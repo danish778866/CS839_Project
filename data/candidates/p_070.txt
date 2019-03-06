@@ -18,8 +18,8 @@ Mr Crosby
 Crosby
 Mr Howard
 Howard
-Australia
-Australia PM
+Australia's
+Australia's PM
 PM
 John
 John Howard
@@ -29,8 +29,8 @@ Howard
 Mr Crosby
 Crosby
 October
-Mr Crosby
-Crosby
+Mr Crosby's
+Crosby</person>'s
 Conservative
 Conservative Party
 Party

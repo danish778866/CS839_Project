@@ -22,13 +22,13 @@ Election
 GMT
 Wednesday
 Prime
-Prime Minister
-Minister
+Prime Minister's
+Minister's
 May
 Next
 Budget
-Mr Brown
-Brown
+Mr Brown's
+Brown</person>'s
 Labour
 May
 Budget
@@ -54,6 +54,6 @@ Budgets
 Aidan
 Aidan O'Carroll
 O'Carroll
-EY
-EY UK
+EY's
+EY's UK
 UK

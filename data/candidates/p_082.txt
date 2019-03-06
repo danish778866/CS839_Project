@@ -1,6 +1,6 @@
 'Super
 Two
-Britain
+Britain's
 Amicus
 Transport
 General
@@ -21,7 +21,7 @@ GMB
 Unison
 TGWU
 Amicus
-Labour
+Labour's
 Warwick
 Warwick Agreement
 Agreement
@@ -30,5 +30,5 @@ BBC
 BBC News
 News
 Wednesday
-Amicus
+Amicus's
 TGWU

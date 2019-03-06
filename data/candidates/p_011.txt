@@ -2,8 +2,8 @@ Mrs
 Mrs Howard
 Howard
 Michael
-Michael Howard
-Howard
+Michael Howard's
+Howard</person>'s
 Sandra
 Conservative
 Mrs
@@ -32,7 +32,7 @@ Mr Blair
 Blair
 Mr Fox
 Fox
-London
+London's
 Liberal
 Liberal Democrats
 Democrats
@@ -40,12 +40,13 @@ Charles
 Charles Kennedy
 Kennedy
 Mrs
-Mrs Howard
-Howard
+Mrs Howard's
+Howard</person>'s
 Mr Fox
 Fox
 Sandra
 Michael
+It's
 Mrs
 Mrs Howard
 Howard

@@ -26,8 +26,8 @@ BNP
 Mr BettsGreen
 BettsGreen
 UKIP
-Mr BettsGreen
-BettsGreen
+Mr BettsGreen's
+BettsGreen</person>'s
 East
 East Anglian
 East Anglian Daily
@@ -50,4 +50,4 @@ Mr BettsGreen
 BettsGreen
 Woodbridge
 Suffolk
-UKIP
+UKIP's

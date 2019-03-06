@@ -1,6 +1,7 @@
 Campbell
 Campbell Email
 Email
+'silly
 ExNo
 Alastair
 Alastair Campbell
@@ -9,10 +10,10 @@ BBC
 Mr Campbell
 Campbell
 Newsnight
-Labour
+Labour's
 Mr Campbell
 Campbell
-Labour
+Labour's
 Peter
 Peter Mandelson
 Mandelson
@@ -26,7 +27,7 @@ Campbell
 Mr Campbell
 Campbell
 Newsnight
-Labour
+Labour's
 TBWA
 Tory
 Michael
@@ -34,12 +35,12 @@ Michael Howard
 Howard
 Fagin
 Labour
-Mr Campbell
-Campbell
+Mr Campbell's
+Campbell</person>'s
 Trevor
 Trevor Beattie
 Beattie
-TBWA
+TBWA's
 Just
 trev
 Posters
@@ -74,8 +75,8 @@ P
 Never
 Must
 Later
-Mr Campbell
-Campbell
+Mr Campbell's
+Campbell</person>'s
 Foreign
 Foreign Secretary
 Foreign Secretary Jack

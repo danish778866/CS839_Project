@@ -13,8 +13,8 @@ Agency
 MSPs
 Experts
 Scottish
-Scottish Parliament
-Parliament
+Scottish Parliament's
+Parliament's
 Officials
 Solutions
 UK
@@ -25,7 +25,7 @@ MSPs
 Scotland
 Sepa
 Experts
-Scotland
+Scotland's
 Researchers
 University
 Highlands

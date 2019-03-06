@@ -17,8 +17,8 @@ Johnson
 Mr Johnson
 Johnson
 Tony
-Tony Blair
-Blair
+Tony Blair's
+Blair</person>'s
 Jewish
 London
 Mr Livingstone
@@ -28,9 +28,9 @@ Evening Standard
 Standard
 Mr Livingstone
 Livingstone
-Labour
-Labour Mr
-Labour Mr Livingstone
+Labour's
+Labour's Mr
+Labour's Mr Livingstone
 Mr Livingstone
 Livingstone
 Mr Blair
@@ -52,6 +52,7 @@ BBC
 BBC Radio
 Radio
 Today
+It's
 Ken
 Ken Livingstone
 Livingstone
@@ -80,5 +81,6 @@ Hillsborough
 Mr Johnson
 Johnson
 Today
+It's
 Ken
 Ken 

@@ -8,10 +8,10 @@ Lib
 Lib Dems
 Dems
 Sir Alan
-Sir Alan Budd
+Sir Alan Budd's
 Alan
-Alan Budd
-Budd
+Alan Budd's
+Budd</person>'s
 Mr Blunkett
 Blunkett
 Lib
@@ -26,8 +26,8 @@ News
 I'm
 Mr Oaten
 Oaten
-Sir Alan
-Alan
+Sir Alan's
+Alan</person>'s
 So
 Tories
 Lib
@@ -35,8 +35,8 @@ Lib Dem
 Dem
 Mr Oaten
 Oaten
-Mr Blunkett
-Blunkett
+Mr Blunkett's
+Blunkett</person>'s
 Lib
 Lib Dem
 Dem
