@@ -111,20 +111,26 @@ def apos_cand(path):
     candidates.close()
     return apos
 
-def write_array(path, content):
+def write_arr(path, content):
     with open(path,"w+") as my_csv:
         csvWriter = csv.writer(my_csv,delimiter=',')
         csvWriter.writerows(content)
 
-valid_cand  = is_valid("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/all_candidates.txt")
-valid_pre = is_valid("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/all_prefixes.txt")
-valid_suff = is_valid("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/all_suffixes.txt")
-is_missing_pre = is_missing("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/all_prefixes.txt")
-is_missing_suf = is_missing("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/all_suffixes.txt")
-nvasr_cand = nvasr("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/all_candidates.txt")
-nvasr_pre = nvasr("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/all_prefixes.txt")
-nvasr_suff = nvasr("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/all_suffixes.txt")
-apos = apos_cand("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/all_candidates.txt")
+def write_array(path, content):
+    f = open(path, "w")
+    for line in content:
+        f.write(','.join(str(var) for var in line) + "\n")
+    f.close()
+
+valid_cand  = is_valid("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/candidates.csv")
+valid_pre = is_valid("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/prefixes.csv")
+valid_suff = is_valid("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/suffixes.csv")
+is_missing_pre = is_missing("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/prefixes.csv")
+is_missing_suf = is_missing("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/suffixes.csv")
+nvasr_cand = nvasr("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/candidates.csv")
+nvasr_pre = nvasr("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/prefixes.csv")
+nvasr_suff = nvasr("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/suffixes.csv")
+apos = apos_cand("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/candidates.csv")
 
 write_data("/Users/somya/Desktop/sem2/CS839_Project/data/features/is_valid_cand.csv", valid_cand)
 write_data("/Users/somya/Desktop/sem2/CS839_Project/data/features/is_valid_pre.csv", valid_pre)
