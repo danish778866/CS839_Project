@@ -192,7 +192,7 @@ def preprocess_driver(data_files, candidates_dir, labels_dir, features_dir):
         prefix_file = candidates_dir + os.sep + file_name + ".pre"
         suffix_file = candidates_dir + os.sep + file_name + ".suf"
         labels_file = labels_dir + os.sep + file_name 
-        feature_ends_apostrophe_file = features_dir + os.sep + "ends_apostrophe.csv"
+        feature_ends_apostrophe_file = features_dir + os.sep + file_name
         candidates, labels, prefix, suffix, feature_ends_apostrophe = generate_candidates_labels(words, 4)
         write_data(candidates_file, candidates)
         write_data(labels_file, labels)
@@ -206,5 +206,5 @@ project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(_
 data_files = project_dir + os.sep + "data" + os.sep + "*.txt"
 candidates_dir = project_dir + os.sep + "data" + os.sep + "candidates"
 labels_dir = project_dir + os.sep + "data" + os.sep + "labels"
-features_dir = project_dir + os.sep + "data" + os.sep + "features"
+features_dir = project_dir + os.sep + "data" + os.sep + "scratch"
 preprocess_driver(data_files, candidates_dir, labels_dir, features_dir)
