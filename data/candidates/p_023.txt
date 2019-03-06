@@ -1,5 +1,6 @@
 EUniversity
-EUniversity disgraceful
+EUniversity 'disgraceful
+'disgraceful
 UK
 MPs
 Chief

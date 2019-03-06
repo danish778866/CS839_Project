@@ -9,10 +9,10 @@ Roman
 Roman Catholics
 Catholics
 Lord
-Lord Dubs
-Lord Dubs Succession
-Dubs
-Dubs Succession
+Lord Dubs'
+Lord Dubs' Succession
+Dubs</person>'
+Dubs' Succession
 Succession
 Crown
 Crown Bill
@@ -39,8 +39,8 @@ Wales
 Wales 
 While
 Lord
-Lord Dubs
-Dubs
+Lord Dubs'
+Dubs</person>'
 MPs
 Commons
 Lord
