@@ -7,7 +7,7 @@ Australia
 October
 Mr Clarke
 Clarke
-Britain
+Britain's
 Asian
 Officials
 British
@@ -23,8 +23,8 @@ Muslim Council
 Council
 Britain
 Ofsted
-Mr Bell
-Bell
+Mr Bell's
+Bell</person>'s
 Home
 Home Office
 Office

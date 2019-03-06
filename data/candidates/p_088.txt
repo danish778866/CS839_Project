@@ -18,10 +18,10 @@ Peter Hain
 Hain
 Speaker
 Speaker Michael
-Speaker Michael Martin
+Speaker Michael Martin's
 Michael
-Michael Martin
-Martin
+Michael Martin's
+Martin</person>'s
 Commons
 Tory
 Andrew
@@ -69,5 +69,5 @@ Speaker Sylvia Heal
 Sylvia
 Sylvia Heal
 Heal
-Mr Martin
-Martin
+Mr Martin's
+Martin</person>'s

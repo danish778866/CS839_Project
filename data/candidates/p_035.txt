@@ -44,7 +44,7 @@ Italy
 Germany
 France
 Some
-Turkey
+Turkey's
 EU
 Some
 Turkey
@@ -65,8 +65,8 @@ Mr Blair
 Blair
 Labour
 Turkish
-Mr Blair
-Blair
+Mr Blair's
+Blair</person>'s
 European
 European Councils
 Councils

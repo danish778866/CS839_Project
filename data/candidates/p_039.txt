@@ -30,8 +30,8 @@ Minister Alun Pugh
 Alun
 Alun Pugh
 Pugh
-Hitler
-Hitler Germany
+Hitler</person>'s
+Hitler's Germany
 Germany
 Ms James
 James
@@ -70,6 +70,7 @@ BBC Radio Wales
 Radio
 Radio Wales
 Wales
+It's
 Free
 Good
 Good Morning
@@ -81,8 +82,8 @@ Just
 Bolshevik
 Bolshevik Russia
 Russia
-Hitler
-Hitler Germany
+Hitler's
+Hitler's Germany
 Germany
 'It
 European
@@ -110,8 +111,8 @@ Welsh Assembly Government
 Assembly
 Assembly Government
 Government
-Hitler
-Hitler Germany
+Hitler's
+Hitler's Germany
 Germany
 Ms James
 James

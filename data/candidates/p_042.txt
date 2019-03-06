@@ -28,8 +28,9 @@ Green Paper
 Paper
 Monday
 Tony
-Tony Blair
-Blair
+Tony Blair's
+Blair</person>'s
+What's
 Now
 Trades
 Trades Union

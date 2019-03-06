@@ -4,7 +4,7 @@ Tony
 Tony Blair
 Blair
 Iraq
-Sunday
+Sunday's
 Lib
 Lib Dem
 Dem
@@ -34,8 +34,8 @@ Czech
 Czech Republic
 Republic
 Iraq
-Mr Blair
-Blair
+Mr Blair's
+Blair</person>'s
 Next
 Iraq
 Mr Kennedy

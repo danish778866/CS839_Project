@@ -58,10 +58,11 @@ Mr Blair
 Blair
 We've
 Uturns
+It's
 Gordon
 Gordon Brown
 Brown
-'There
+'There's
 '
 Mr Howard
 Howard
@@ -89,12 +90,12 @@ Those
 Tory
 Tory MP
 Tory MP Patrick
-Tory MP Patrick Mercer
+Tory MP Patrick Mercer's
 MP
 MP Patrick
-MP Patrick Mercer
+MP Patrick Mercer's
 Patrick
-Patrick Mercer
-Mercer
+Patrick Mercer's
+Mercer</person>'s
 Parliament
 Wednesday

@@ -60,15 +60,15 @@ Westminster Hall
 Hall
 London
 Queen
-St James
-St James Palace
-James
-James Palace
+St James's
+St James's Palace
+James</person>'s
+James's Palace
 Palace
 Altogether
 Jews
 Holocaust
-Queen
+Queen's
 Prince
 Prince Harry
 Harry

@@ -6,12 +6,12 @@ Chancellor Gordon Brown
 Gordon
 Gordon Brown
 Brown
-Kenya
+Kenya's
 Africa
-Mr Brown
-Brown
+Mr Brown's
+Brown</person>'s
 UK
-Africa
+Africa's
 HIV/Aids
 Tanzania
 Mozambique
@@ -33,11 +33,11 @@ Mr Brown
 Brown
 Africa
 Kibera
-Mr Brown
-Brown
+Mr Brown's
+Brown</person>'s
 Kenyan
-Kenyan Government
-Government
+Kenyan Government's
+Government's
 Marshall
 Marshall Plan
 Plan
