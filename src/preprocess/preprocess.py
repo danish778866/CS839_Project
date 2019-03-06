@@ -25,7 +25,8 @@ def is_negative(word):
     ignore_punctuations = [",", ".", "\""]
     ignore_words = ["It", "We", "She", "He", "But", "These", "If", "All", "Its", "In", "And", "For", "This", "That", "Or", "On", 
                     "The", "I", "His", "Her", "At", "Then", "There", "Their", "Our", "As", "Was", "How", "What", "Any", "To", "Of",
-                   "They", "Have", "Can", "Be", "A", "With", "You", "From", "By", "My"]
+                   "They", "Have", "Can", "Be", "A", "With", "You", "From", "By", "My", "I\'m", "I\'ll", "It\'s", "Before", "After", 
+                    "I\'ve"]
     if not word:
         ret_val = True
     elif word[0].islower():
@@ -36,17 +37,21 @@ def is_negative(word):
         ret_val = True
     elif word in ignore_words:
         ret_val = True
+    elif word.isupper():
+        ret_val = True
+    elif word.count("\'") > 1:
+        ret_val = True
     return ret_val
 
 def clean_word(word):
     ends_apostrophe = False
     if word.endswith("\'s"):
-        word = word.replace("\'s ", " ")
+        word = word.replace("\'s", "")
         ends_apostrophe = True
     elif word.endswith("s\'"):
-        word = word.replace("s\' ", " ")
+        word = word.replace("s\'", "")
         ends_apostrophe = True
-    word = re.sub(r'[^\w\s<>/\']', '', word)
+    word = re.sub(r'[^\w\s<>/]', '', word)
     return word, ends_apostrophe
 
 def get_prefix(words, index, num_words):
