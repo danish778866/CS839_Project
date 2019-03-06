@@ -1,13 +1,9 @@
 Profile
 Profile David
 Profile David Blunkett
-Profile David Blunkett Before
 David
 David Blunkett
-David Blunkett Before
 Blunkett
-Blunkett Before
-Before
 Wednesday
 David
 David Blunkett
@@ -39,8 +35,8 @@ Having
 Ms Hughes
 Hughes
 April
-Mr Blunkett's
-Blunkett</person>'s
+Mr Blunkett
+Blunkett
 Afghanistan
 Kosovo
 Britain
@@ -49,12 +45,7 @@ Avoiding
 Yet
 January
 Grade
-Grade B
-B
 Grade
-Grade C
-C
-Before
 Mr Blunkett
 Blunkett
 Mr Blunkett
@@ -74,12 +65,12 @@ Hallam
 MPs
 Cabinet
 Labour
-Labour Party's
-Labour Party's National
-Labour Party's National Executive
-Party's
-Party's National
-Party's National Executive
+Labour Party
+Labour Party National
+Labour Party National Executive
+Party
+Party National
+Party National Executive
 National
 National Executive
 Executive
@@ -96,8 +87,8 @@ Labour
 Labour Party
 Party
 Tony
-Tony Blair's
-Blair</person>'s
+Tony Blair
+Blair
 Mr Blunkett
 Blunkett
 Labour
@@ -109,5 +100,5 @@ Tory
 Lucy
 Sadie
 Labradorcurlycoated
-Mr Blunkett's
-Blunkett</person>'s
+Mr Blunkett
+Blunkett

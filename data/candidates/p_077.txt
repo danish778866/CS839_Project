@@ -19,16 +19,15 @@ Budget
 General
 General Election
 Election
-GMT
 Wednesday
 Prime
-Prime Minister's
-Minister's
+Prime Minister
+Minister
 May
 Next
 Budget
-Mr Brown's
-Brown</person>'s
+Mr Brown
+Brown
 Labour
 May
 Budget
@@ -52,8 +51,5 @@ Ernst  Young
 Young
 Budgets
 Aidan
-Aidan O'Carroll
-O'Carroll
-EY's
-EY's UK
-UK
+Aidan OCarroll
+OCarroll

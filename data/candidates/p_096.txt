@@ -1,11 +1,11 @@
-Brown</person>'s
+Brown
 Gordon
 Gordon Brown
 Brown
 Alan
 Alan Milburn
 Milburn
-Labour's
+Labour
 Work
 Alan
 Alan Johnson
@@ -40,8 +40,6 @@ Mr Milburn
 Milburn
 Mr Johnson
 Johnson
-BBC
-BBC News
 News
 Gordon
 Gordon Brown

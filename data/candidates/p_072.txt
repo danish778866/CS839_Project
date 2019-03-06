@@ -3,10 +3,7 @@ Jack Cunningham
 Cunningham
 Veteran
 Veteran Labour
-Veteran Labour MP
 Labour
-Labour MP
-MP
 Cabinet
 Jack
 Jack Cunningham
@@ -20,16 +17,15 @@ Labour
 Mr Cunningham
 Cunningham
 Tony
-Tony Blair's
-Blair</person>'s
+Tony Blair
+Blair
 Copeland
 Mr Blair
 Blair
 Labour
 During
-During Labour's
-Labour's
+During Labour
+Labour
 Mr Cunningham
 Cunningham
-BSE
 Lords

@@ -13,11 +13,10 @@ Agency
 MSPs
 Experts
 Scottish
-Scottish Parliament's
-Parliament's
+Scottish Parliament
+Parliament
 Officials
 Solutions
-UK
 Scotland
 Sepa
 Ecologists
@@ -25,7 +24,7 @@ MSPs
 Scotland
 Sepa
 Experts
-Scotland's
+Scotland
 Researchers
 University
 Highlands
@@ -42,12 +41,6 @@ Thurso
 University
 Highlands
 Islands
-Islands UHI
-Islands UHI Millennium
-Islands UHI Millennium Institute
-UHI
-UHI Millennium
-UHI Millennium Institute
 Millennium
 Millennium Institute
 Institute

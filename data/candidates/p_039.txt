@@ -1,4 +1,4 @@
-'<person>Hitler</person>'
+Hitler
 Welsh
 An
 Welsh
@@ -30,8 +30,8 @@ Minister Alun Pugh
 Alun
 Alun Pugh
 Pugh
-Hitler</person>'s
-Hitler's Germany
+Hitler
+Hitler Germany
 Germany
 Ms James
 James
@@ -64,13 +64,9 @@ James
 Jerwood
 Ms James
 James
-BBC
-BBC Radio
-BBC Radio Wales
 Radio
 Radio Wales
 Wales
-It's
 Free
 Good
 Good Morning
@@ -82,16 +78,14 @@ Just
 Bolshevik
 Bolshevik Russia
 Russia
-Hitler's
-Hitler's Germany
+Hitler
+Hitler Germany
 Germany
-'It
 European
 Russia
 Germany
 Century
 Artists
-'
 Wales
 National
 National Assembly
@@ -100,8 +94,8 @@ Wales
 Green
 Valley
 Responding
-Ms James'
-James</person>'
+Ms James
+James
 Mr Pugh
 Pugh
 Comparing
@@ -111,8 +105,8 @@ Welsh Assembly Government
 Assembly
 Assembly Government
 Government
-Hitler's
-Hitler's Germany
+Hitler
+Hitler Germany
 Germany
 Ms James
 James

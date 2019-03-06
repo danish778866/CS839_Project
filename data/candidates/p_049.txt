@@ -1,5 +1,4 @@
 Clarke
-ID
 New
 New Home
 New Home Secretary
@@ -14,7 +13,6 @@ Secretary Charles Clarke
 Charles
 Charles Clarke
 Clarke
-ID
 Charles
 Charles Kennedy
 Kennedy
@@ -22,17 +20,16 @@ Lib
 Lib Dem
 Dem
 David
-David Blunkett's
-Blunkett</person>'s
+David Blunkett
+Blunkett
 Mr Clarke
 Clarke
 Mr Blunkett
 Blunkett
 Cabinet
-ID
 Mr Clarke
 Clarke
-Commons'
+Common
 Parliament
 Monday
 Earlier
@@ -40,16 +37,12 @@ Earlier Mr
 Earlier Mr Kennedy
 Mr Kennedy
 Kennedy
-ID
 Christmas
-BBC
-BBC Radio
 Radio
 Today
 Mr Clarke
 Clarke
-ID
-Wouldn't
+Wouldnt
 Earlier
 Tories
 Michael
@@ -75,12 +68,9 @@ Mansfield
 Mansfield QC
 QC
 Asian
-ID
 Home
 Home Office
 Office
-ID
-ID
 Mr Blunkett
 Blunkett
 Parliament

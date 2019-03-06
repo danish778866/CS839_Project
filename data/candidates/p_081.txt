@@ -1,15 +1,10 @@
 Job
-'false
-TUC
-TUC Plans
 Plans
-TUC
 Public
 Commercial
 Commercial Services
 Services
 November
-TUC
 General
 Brendan
 Brendan Barber
@@ -19,13 +14,11 @@ Barber
 Public
 Tory
 Next
-Next Friday's
-Friday's
-PCS
+Next Friday
+Friday
 Jobcentres
 Last
 Jobcentres
-UK
 Britain
 April
 Other

@@ -11,9 +11,9 @@ Commons
 Birkbeck
 Birkbeck College
 College
-Labour's
-Labour's Yvette
-Labour's Yvette Cooper
+Labour
+Labour Yvette
+Labour Yvette Cooper
 Yvette
 Yvette Cooper
 Cooper
@@ -41,35 +41,23 @@ Babes
 Conservatives
 Conservatives 
 Labour
-'melons'
 Former
 Former Liberal
 Former Liberal Democrat
-Former Liberal Democrat MP
 Liberal
 Liberal Democrat
-Liberal Democrat MP
-Liberal Democrat MP Jackie
 Democrat
-Democrat MP
-Democrat MP Jackie
-Democrat MP Jackie Ballard
-MP
-MP Jackie
-MP Jackie Ballard
 Jackie
 Jackie Ballard
 Ballard
-MP
 Gillian
 Gillian Shepherd
 Shepherd
 Betty
 When
-'Look
-Betty</person>'
-'ah
-Betty</person>'
+Look
+Betty
+Betty
 Harriet
 Harriet Harman
 Harman
@@ -92,9 +80,8 @@ Democrat Sarah Teather
 Sarah
 Sarah Teather
 Teather
-MP
 Lots
-I've
+Ive
 Prof Joni
 Prof Joni Lovenduski
 Joni
@@ -102,10 +89,7 @@ Joni Lovenduski
 Lovenduski
 Margaret
 Margaret Moran
-Margaret Moran MP
 Moran
-Moran MP
-MP
 Parliament
 Prof Lovenduski
 Lovenduski

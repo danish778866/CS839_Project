@@ -12,21 +12,18 @@ Other
 Hunger
 Mr Makarov
 Makarov
-BBC's
-BBC's Newsnight
 Newsnight
 Since
 Oleg
 Oleg Gordievsky
 Gordievsky
-KGB
 British
 Commenting
-Mr Makarov's
-Makarov</person>'s
+Mr Makarov
+Makarov
 British
-Mr Makarov's
-Makarov</person>'s
+Mr Makarov
+Makarov
 David
 David Kahn
 David Kahn 
@@ -44,13 +41,11 @@ Mr Kahn
 Kahn
 Mr Makarov
 Makarov
-KGB
 Russia
 One
 Vladimir
 Vladimir Putin
 Putin
-KGB
 Moscow
 West
 Western
@@ -65,8 +60,5 @@ Artic
 Within
 British
 Latvia
-UK
 London
-After
 Government
-BBC

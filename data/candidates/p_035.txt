@@ -1,7 +1,5 @@
 Leaders
 Turkish
-Turkish EU
-EU
 Tony
 Tony Blair
 Blair
@@ -30,22 +28,18 @@ Gerhard
 Gerhard Schroeder
 Schroeder
 Turkey
-EU
 Downing
 Downing Street
 Street
-EU
 Brussels
 Mr Blair
 Blair
 Turkey
-EU
 Italy
 Germany
 France
 Some
-Turkey's
-EU
+Turkey
 Some
 Turkey
 France
@@ -60,13 +54,12 @@ Armenians
 France
 Netherlands
 Muslim
-EU
 Mr Blair
 Blair
 Labour
 Turkish
-Mr Blair's
-Blair</person>'s
+Mr Blair
+Blair
 European
 European Councils
 Councils

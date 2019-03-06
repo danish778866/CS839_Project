@@ -1,9 +1,4 @@
-UKIP
 Labour
-EU
-UK
-UK Independence
-UK Independence Party
 Independence
 Independence Party
 Party
@@ -12,23 +7,20 @@ Liberal
 Liberal Democrats
 Democrats
 European
-UKIP
 Say
 Europe
-Conservatives'
-UKIP
+Conservative
 MEPs
-Labour's
+Labour
 Lib
-Lib Dems'
-Dems'
-Greens'
+Lib Dem
+Dem
+Green
 Electoral
 Electoral Commission
 Commission
 Wednesday
 Much
-UKIP
 Yorkshire
 Sir Paul
 Sir Paul Sykes
@@ -36,6 +28,5 @@ Paul
 Paul Sykes
 Sykes
 Critics
-UKIP
 Labour
 Conservatives

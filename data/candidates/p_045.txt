@@ -1,5 +1,4 @@
 Tory
-'cleared'
 Scottish
 Scottish Conservative
 Scottish Conservative Party
@@ -10,15 +9,12 @@ David
 David McLetchie
 McLetchie
 Edinburgh
-Edinburgh MSP
-MSP
 Tods
 Tods Murray
 Murray
 Mr McLetchie
 McLetchie
 Holyrood
-MSP
 Mr McLetchie
 McLetchie
 Edinburgh
@@ -29,9 +25,7 @@ Tods Murray
 Murray
 Mr McLetchie
 McLetchie
-BBC
-BBC Scotland's
-Scotland's
+Scotland
 Glenn
 Glenn Campbell
 Campbell
@@ -41,11 +35,11 @@ Glenn
 MSPs
 Mr McLetchie
 McLetchie
-I'm
+Im
 Tods
 Tods Murray
 Murray
 Mr McLetchie
 McLetchie
-I'll
-I'm
+Ill
+Im

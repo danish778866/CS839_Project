@@ -1,15 +1,13 @@
 Drive
-'save'
 Efforts
-'protect'
 Christmas
 Christmas Day
 Day
 New
-New Year's
-New Year's Day
-Year's
-Year's Day
+New Year
+New Year Day
+Year
+Year Day
 Day
 Support
 Scotland
@@ -18,9 +16,6 @@ Christmas Day
 Day
 January
 Usdaw
-MSP
-MSP Karen
-MSP Karen Whitefield
 Karen
 Karen Whitefield
 Whitefield
@@ -28,10 +23,10 @@ Christmas
 Christmas Day
 Day
 New
-New Year's
-New Year's Day
-Year's
-Year's Day
+New Year
+New Year Day
+Year
+Year Day
 Day
 Ms Whitefield
 Whitefield
@@ -43,25 +38,25 @@ Christmas
 Christmas Day
 Day
 New
-New Year's
-New Year's Day
-Year's
-Year's Day
+New Year
+New Year Day
+Year
+Year Day
 Day
 Scotland
 Karen
 Christmas
 Christmas 
 Christmas  New
-Christmas  New Year's
+Christmas  New Year
 New
-New Year's
-New Year's Day
-New Year's Day Trading
-Year's
-Year's Day
-Year's Day Trading
-Year's Day Trading Bill
+New Year
+New Year Day
+New Year Day Trading
+Year
+Year Day
+Year Day Trading
+Year Day Trading Bill
 Day
 Day Trading
 Day Trading Bill

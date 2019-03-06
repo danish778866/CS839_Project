@@ -15,9 +15,9 @@ Tories
 Lib
 Lib Dems
 Dems
-Mr Blair's
-Blair</person>'s
-Tories'
+Mr Blair
+Blair
+Torie
 Lords
 Peers
 Thursday
@@ -36,12 +36,9 @@ Secretary David Davis
 David
 David Davis
 Davis
-BBC
-BBC Radio
-BBC Radio Four's
 Radio
-Radio Four's
-Four's
+Radio Four
+Four
 World
 One
 Commons
@@ -64,7 +61,6 @@ Dem
 Mark
 Mark Oaten
 Oaten
-There's
 Human
 Human Rights
 Human Rights Watch

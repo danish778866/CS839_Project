@@ -20,15 +20,14 @@ Accounts
 Accounts Committee
 Committee
 Prince
-Prince Charles'
-Charles</person>'
+Prince Charles
+Charles
 Camilla
 Camilla Parker
 Camilla Parker Bowles
 Parker
 Parker Bowles
 Bowles
-BBC
 Peter
 Peter Hunt
 Hunt
@@ -36,20 +35,17 @@ Duchy
 Monday
 Duchy
 Lancaster
-Queen's
+Queen
 Duchy
 Cornwall
 Prince
-Prince Charles'
-Charles'
+Prince Charle
+Charle
 Duchy
 Cornwall
 King
 King Edward
-King Edward III
 Edward
-Edward III
-III
 Charles
 William
 Harry

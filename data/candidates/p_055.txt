@@ -12,7 +12,6 @@ Ruth Kelly
 Kelly
 Ms Kelly
 Kelly
-BBC
 Catholic
 Opus
 Opus Dei
@@ -20,11 +19,8 @@ Dei
 Conservatives
 Ms Kelly
 Kelly
-BBC
-BBC One's
-BBC One's Breakfast
-One's
-One's Breakfast
+One
+One Breakfast
 Breakfast
 Frost
 Head
@@ -55,7 +51,7 @@ Kelly
 Opus
 Opus Dei
 Dei
-I'm
+Im
 Cabinet
 Tomlinson
 Ms Kelly

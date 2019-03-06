@@ -7,7 +7,7 @@ Australia
 October
 Mr Clarke
 Clarke
-Britain's
+Britain
 Asian
 Officials
 British
@@ -23,8 +23,8 @@ Muslim Council
 Council
 Britain
 Ofsted
-Mr Bell's
-Bell</person>'s
+Mr Bell
+Bell
 Home
 Home Office
 Office
@@ -38,12 +38,12 @@ Equality
 Equality Strategy
 Strategy
 Wednesday
-'Improving
-'Improving Opportunity
+Improving
+Improving Opportunity
 Opportunity
 Strengthening
-Strengthening Society'
-Society'
+Strengthening Society
+Society
 Home
 Home Office
 Office
@@ -52,7 +52,6 @@ Launching
 Mr Clarke
 Clarke
 Some
-UK
 Census
 Downing
 Downing Street

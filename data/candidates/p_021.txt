@@ -1,22 +1,18 @@
 Blair
-'preelection
 Tony
 Tony Blair
 Blair
 Chancellor
 Chancellor Gordon
-Chancellor Gordon Brown's
+Chancellor Gordon Brown
 Gordon
-Gordon Brown's
-Brown</person>'s
-UK
+Gordon Brown
+Brown
 Edinburgh
-Thursday's
-Labour's
+Thursday
+Labour
 Mr Brown
 Brown
-BBC
-BBC Radio
 Radio
 Today
 No
@@ -28,10 +24,10 @@ Brown
 Britain
 Mr Blair
 Blair
-Labour's
-Edinburgh's
-Edinburgh's Napier
-Edinburgh's Napier University
+Labour
+Edinburgh
+Edinburgh Napier
+Edinburgh Napier University
 Napier
 Napier University
 University
@@ -41,7 +37,6 @@ Blair
 Mr Brown
 Brown
 City
-UK
 Many
 Carl
 Carl Emmerson
@@ -50,25 +45,20 @@ Institute
 Fiscal
 Fiscal Studies
 Studies
-BBC
-BBC News
 News
-OK
-We're
+Were
 David
 David Page
 Page
 Investec
 Investec Securities
 Securities
-It's
 Conservative
 Conservative Shadow
 Shadow
 Oliver
 Oliver Letwin
 Letwin
-IMF
 Institute
 Fiscal
 Fiscal Studies

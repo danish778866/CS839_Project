@@ -1,5 +1,5 @@
 Tory
-Conservatives'
+Conservative
 Michael
 Michael Howard
 Howard
@@ -11,16 +11,14 @@ Australian Lynton Crosby
 Lynton
 Lynton Crosby
 Crosby
-Tories'
-Tories' Commons
+Torie
+Torie Commons
 Commons
 Mr Crosby
 Crosby
 Mr Howard
 Howard
-Australia's
-Australia's PM
-PM
+Australia
 John
 John Howard
 Howard
@@ -29,8 +27,8 @@ Howard
 Mr Crosby
 Crosby
 October
-Mr Crosby's
-Crosby</person>'s
+Mr Crosby
+Crosby
 Conservative
 Conservative Party
 Party

@@ -6,18 +6,15 @@ Howard
 Mr Howard
 Howard
 Nazi
-UK
-BBC
-'No
-'No More
-'No More Mr
-'No More Mr Nasty'
+No
+No More
+No More Mr
+No More Mr Nasty
 More
 More Mr
-More Mr Nasty'
-Mr Nasty'
-Nasty'
-TV
+More Mr Nasty
+Mr Nasty
+Nasty
 Anne
 Anne Robinson
 Robinson
@@ -43,16 +40,15 @@ Weakest Link
 Link
 Cockerell
 John
-John Major's
-Major</person>'s
+John Major
+Major
 Draconian
 Mr Howard
 Howard
 Rory
-Rory Bremner's
-Bremner</person>'s
+Rory Bremner
+Bremner
 Dracula
-UK
 Tory
 Sandra
 Asked
@@ -66,7 +62,7 @@ Street
 Alastair
 Alastair Campbell
 Campbell
-Labour's
+Labour
 Mr Howard
 Howard
 Tony
@@ -77,8 +73,8 @@ Mr Howard
 Howard
 Iraq
 Tory
-Mr Blair's
-Blair</person>'s
+Mr Blair
+Blair
 Former
 Former Tory
 Tory
@@ -109,4 +105,3 @@ Mr Nasty
 Nasty
 Saturday
 February
-GMT

@@ -1,9 +1,4 @@
-UK
 Nine
-UK
-UK Foreign
-UK Foreign Secretary
-UK Foreign Secretary Jack
 Foreign
 Foreign Secretary
 Foreign Secretary Jack
@@ -28,19 +23,17 @@ Nine
 Europe
 America
 Dallas
-US
 Bordeaux
 France
 Oporto
 Portugal
-UK
 Some
 Mr Straw
 Straw
 Foreign
 Commonwealth
-Commonwealth Office's
-Office's
+Commonwealth Office
+Office
 Some
 Africa
 Nairobi
@@ -62,7 +55,7 @@ North
 North Korea
 Korea
 Since
-Wednesday's
+Wednesday
 Shadow
 Michael
 Michael Ancram

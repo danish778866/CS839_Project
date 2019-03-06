@@ -4,7 +4,7 @@ Tony
 Tony Blair
 Blair
 Iraq
-Sunday's
+Sunday
 Lib
 Lib Dem
 Dem
@@ -12,15 +12,10 @@ Charles
 Charles Kennedy
 Kennedy
 George
-George W
-George W Bush
-W
-W Bush
 Bush
 Mr Kennedy
 Kennedy
 Iraq
-UK
 London
 British
 American
@@ -34,8 +29,8 @@ Czech
 Czech Republic
 Republic
 Iraq
-Mr Blair's
-Blair</person>'s
+Mr Blair
+Blair
 Next
 Iraq
 Mr Kennedy

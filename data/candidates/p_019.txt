@@ -1,5 +1,4 @@
 Drink
-'acts
 Jack
 Jack Law
 Law
@@ -10,9 +9,9 @@ Focus
 Focus Scotland
 Scotland
 Jack
-Jack McConnell's
-McConnell</person>'s
-Scotland's
+Jack McConnell
+McConnell
+Scotland
 Mr Law
 Law
 Scotsman
@@ -50,7 +49,7 @@ Alcohol Focus Scotland
 Focus
 Focus Scotland
 Scotland
-Scotland's
+Scotland
 Mr Law
 Law
 Scotland
@@ -65,13 +64,13 @@ Scottish Executive
 Executive
 Scottish
 Scottish National
-Scottish National Party's
-Scottish National Party's Holyrood
+Scottish National Party
+Scottish National Party Holyrood
 National
-National Party's
-National Party's Holyrood
-Party's
-Party's Holyrood
+National Party
+National Party Holyrood
+Party
+Party Holyrood
 Holyrood
 Nicola
 Nicola Sturgeon
@@ -81,7 +80,6 @@ McConnell
 Tuesday
 Ms Sturgeon
 Sturgeon
-'should
 Perhaps
 Highland
 Highland Council

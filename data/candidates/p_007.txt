@@ -1,19 +1,10 @@
 Fox
-Blair</person>'s
-Blair's Tory
-Blair's Tory 'lies'
-Blair's Tory 'lies' Tony
+Blair
+Blair Tory
 Tory
-Tory 'lies'
-Tory 'lies' Tony
-Tory 'lies' Tony Blair
-'lies'
-'lies' Tony
-'lies' Tony Blair
 Tony
 Tony Blair
 Blair
-UK
 Tories
 Tory
 Liam
@@ -25,13 +16,11 @@ Labour
 Tories
 Dr Fox
 Fox
-BBC
-BBC Radio
 Radio
 Lord
 Lord Ashcroft
 Ashcroft
-Labour's
+Labour
 May
 Gateshead
 Sunday
@@ -40,7 +29,6 @@ Blair
 Downing
 Downing Street
 Street
-It's
 Britain
 Britain
 Mr Blair
@@ -58,11 +46,9 @@ Mr Blair
 Blair
 Cabinet
 Labour
-BBC
-BBC News
 News
 Tory
-Labour's
+Labour
 Mr Blair
 Blair
 Dr Fox
@@ -89,8 +75,8 @@ Dem
 Charles
 Charles Kennedy
 Kennedy
-Mr Blair's
-Blair</person>'s
+Mr Blair
+Blair
 Monday
 Mr Kennedy
 Kennedy

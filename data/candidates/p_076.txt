@@ -7,20 +7,15 @@ National Audit Office
 Audit
 Audit Office
 Office
-MoD's
-BBC
-NAO's
+MoD
 Sir John
 Sir John Bourn
 John
 John Bourn
 Bourn
-NAO
 Many
 MoD
-NAO
 Eurofighter
-BBC's
 Paul
 Paul Adams
 Adams
@@ -69,5 +64,3 @@ Identification
 Identification Friend
 Friend
 Foe
-Foe SIFF
-SIFF

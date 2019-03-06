@@ -6,12 +6,11 @@ Chancellor Gordon Brown
 Gordon
 Gordon Brown
 Brown
-Kenya's
+Kenya
 Africa
-Mr Brown's
-Brown</person>'s
-UK
-Africa's
+Mr Brown
+Brown
+Africa
 HIV/Aids
 Tanzania
 Mozambique
@@ -33,11 +32,11 @@ Mr Brown
 Brown
 Africa
 Kibera
-Mr Brown's
-Brown</person>'s
+Mr Brown
+Brown
 Kenyan
-Kenyan Government's
-Government's
+Kenyan Government
+Government
 Marshall
 Marshall Plan
 Plan
@@ -60,5 +59,4 @@ Conservative
 Michael
 Michael Howard
 Howard
-GMT
 Wednesday

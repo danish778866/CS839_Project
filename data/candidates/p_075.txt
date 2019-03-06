@@ -5,20 +5,14 @@ Livingstone
 Nazi
 Jewish
 Tory
-Tory MP
-Tory MP Boris
-Tory MP Boris Johnson
-MP
-MP Boris
-MP Boris Johnson
 Boris
 Boris Johnson
 Johnson
 Mr Johnson
 Johnson
 Tony
-Tony Blair's
-Blair</person>'s
+Tony Blair
+Blair
 Jewish
 London
 Mr Livingstone
@@ -28,9 +22,9 @@ Evening Standard
 Standard
 Mr Livingstone
 Livingstone
-Labour's
-Labour's Mr
-Labour's Mr Livingstone
+Labour
+Labour Mr
+Labour Mr Livingstone
 Mr Livingstone
 Livingstone
 Mr Blair
@@ -48,11 +42,8 @@ Bigley
 Mr Blair
 Blair
 Spectator
-BBC
-BBC Radio
 Radio
 Today
-It's
 Ken
 Ken Livingstone
 Livingstone
@@ -61,7 +52,6 @@ Evening Standard
 Standard
 Mr Johnson
 Johnson
-MP
 HenleyonThames
 Oxfordshire
 Labour
@@ -81,6 +71,5 @@ Hillsborough
 Mr Johnson
 Johnson
 Today
-It's
 Ken
 Ken 

@@ -1,6 +1,6 @@
 Tories
-'Uturns'
-'Uturns' Tory
+Uturn
+Uturn Tory
 Tory
 Michael
 Michael Howard
@@ -50,20 +50,15 @@ Instead
 Thursday
 Mr Howard
 Howard
-BBC
-BBC Radio
 Radio
 Today
 Mr Blair
 Blair
-We've
+Weve
 Uturns
-It's
 Gordon
 Gordon Brown
 Brown
-'There's
-'
 Mr Howard
 Howard
 Norfolk
@@ -88,14 +83,8 @@ Ken Macdonald
 Macdonald
 Those
 Tory
-Tory MP
-Tory MP Patrick
-Tory MP Patrick Mercer's
-MP
-MP Patrick
-MP Patrick Mercer's
 Patrick
-Patrick Mercer's
-Mercer</person>'s
+Patrick Mercer
+Mercer
 Parliament
 Wednesday

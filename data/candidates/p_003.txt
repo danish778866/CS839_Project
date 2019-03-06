@@ -1,7 +1,6 @@
 Hewitt
-'career
 Plans
-Labour's
+Labour
 Trade
 Industry
 Industry Secretary
@@ -14,13 +13,9 @@ Hewitt
 Equal
 Equal Opportunities
 Equal Opportunities Commission
-Equal Opportunities Commission EOC
 Opportunities
 Opportunities Commission
-Opportunities Commission EOC
 Commission
-Commission EOC
-EOC
 Mothers
 Ms Hewitt
 Hewitt
@@ -32,17 +27,11 @@ Women
 Equal
 Equal Opportunities
 Equal Opportunities Commission
-Equal Opportunities Commission EOC
 Opportunities
 Opportunities Commission
-Opportunities Commission EOC
 Commission
-Commission EOC
-EOC
 Career
 Earlier
-BBC
-BBC Radio
 Radio
 Today
 Unfortunately
@@ -52,9 +41,6 @@ Career
 Department
 Trade
 Industry
-TUC
 Research
-EOC
 Britons
 Women
-FTSE

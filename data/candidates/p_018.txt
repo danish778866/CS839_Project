@@ -15,7 +15,6 @@ Nazi
 Prince
 Prince Edward
 Edward
-UK
 Poland
 National
 National Holocaust
@@ -60,21 +59,21 @@ Westminster Hall
 Hall
 London
 Queen
-St James's
-St James's Palace
-James</person>'s
-James's Palace
+St James
+St James Palace
+James
+James Palace
 Palace
 Altogether
 Jews
 Holocaust
-Queen's
+Queen
 Prince
 Prince Harry
 Harry
 Nazi
 Auschwitz
-Soviets'
+Soviet
 Prince
 Prince Harry
 Harry

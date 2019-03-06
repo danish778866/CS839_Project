@@ -1,9 +1,8 @@
 Lib
 Lib Dems
-Lib Dems 'to
+Lib Dems to
 Dems
-Dems 'to
-'to
+Dems to
 Liberal
 Liberal Democrats
 Democrats
@@ -30,20 +29,17 @@ Liberal Democrats
 Democrats
 Paul
 Paul Boateng
-Paul Boateng MP
 Boateng
-Boateng MP
-MP
-Labour's
-Labour's Chief
-Labour's Chief Secretary
+Labour
+Labour Chief
+Labour Chief Secretary
 Chief
 Chief Secretary
 Secretary
 Treasury
 Lib
-Lib Dems'
-Dems'
+Lib Dem
+Dem
 Mr Cable
 Cable
 Alternative

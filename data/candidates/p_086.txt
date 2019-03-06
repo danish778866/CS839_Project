@@ -2,24 +2,22 @@ Howard
 Michael
 Michael Howard
 Howard
-US
 George
 George Bush
 Bush
 Tory
-Alzheimer's
-Parkinson's
+Alzheimer
+Parkinson
 Motor
 Motor Neurone
 Neurone
-UK
 Stem
 Scientists
 Mr Howard
 Howard
 Politicians
 Briton
-Parkinson's
+Parkinson
 Multiple
 Multiple Sclerosis
 Sclerosis
@@ -29,7 +27,7 @@ Motor Neurone Disease
 Neurone
 Neurone Disease
 Disease
-Alzheimer's
+Alzheimer
 Mr Howard
 Howard
 More
@@ -44,11 +42,11 @@ Howard
 Westminster
 Conservative
 Conservative National
-Conservative National Women's
-Conservative National Women's Committee
+Conservative National Women
+Conservative National Women Committee
 National
-National Women's
-National Women's Committee
-Women's
-Women's Committee
+National Women
+National Women Committee
+Women
+Women Committee
 Committee

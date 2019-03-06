@@ -1,6 +1,5 @@
 Student
-Student 'fee
-'fee
+Student fee
 Scotland
 However
 Lifelong
@@ -42,18 +41,14 @@ David
 David Caldwell
 Caldwell
 English
-BBC
-BBC Radio
-BBC Radio Scotland's
-BBC Radio Scotland's Good
 Radio
-Radio Scotland's
-Radio Scotland's Good
-Radio Scotland's Good Morning
-Scotland's
-Scotland's Good
-Scotland's Good Morning
-Scotland's Good Morning Scotland
+Radio Scotland
+Radio Scotland Good
+Radio Scotland Good Morning
+Scotland
+Scotland Good
+Scotland Good Morning
+Scotland Good Morning Scotland
 Good
 Good Morning
 Good Morning Scotland

@@ -28,9 +28,8 @@ Green Paper
 Paper
 Monday
 Tony
-Tony Blair's
-Blair</person>'s
-What's
+Tony Blair
+Blair
 Now
 Trades
 Trades Union
@@ -44,7 +43,6 @@ Dave Prentis
 Prentis
 Unison
 Members
-NHS
 MPs
 Europe
 Unison

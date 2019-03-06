@@ -1,10 +1,9 @@
 Protesters
 Campaigners
-Britain's
+Britain
 High
 High Court
 Court
-BAA's
 Stansted
 Stansted Airport
 Airport
@@ -12,11 +11,9 @@ Essex
 Opponents
 Heathrow
 Gatwick
-BAA
 Heathrow
 Gatwick
 Stansted
-BAA
 Groups
 Stop
 Stop Stansted
@@ -25,8 +22,6 @@ Stansted
 Stansted Expansion
 Expansion
 Heathrow
-HACAN
-HACAN Clearskies
 Clearskies
 London
 Hillingdon
@@ -50,8 +45,6 @@ Essex County Council
 County
 County Council
 Council
-BBC
-BBC Radio
 Radio
 Today
 High
@@ -62,15 +55,10 @@ Green Paper
 Paper
 Politicians
 Stansted
-UK
-BAA
 Heathrow
 Gatwick
 Edinburgh
 Glasgow
-BAA
 September
-BAA
 Heathrow
-BAA
 Gatwick

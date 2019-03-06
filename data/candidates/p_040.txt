@@ -5,7 +5,7 @@ Straw Jack Straw
 Jack
 Jack Straw
 Straw
-Britain's
+Britain
 Law
 New
 New Home
@@ -25,8 +25,6 @@ House
 Lords
 Mr Straw
 Straw
-BBC
-BBC Radio
 Radio
 Today
 Parliament
@@ -38,14 +36,14 @@ Lord
 Lord Carlile
 Carlile
 Law
-Law Lords'
-Lords'
+Law Lord
+Lord
 Charles
-Charles Clarke's
-Clarke</person>'s
+Charles Clarke
+Clarke
 David
-David Blunkett's
-Blunkett</person>'s
+David Blunkett
+Blunkett
 MPs
 Mr Clarke
 Clarke
@@ -60,8 +58,8 @@ Lords
 Court
 Appeal
 Home
-Home Office's
-Office's
+Home Office
+Office
 European
 European Convention
 Convention
@@ -69,7 +67,6 @@ Human
 Human Rights
 Rights
 September
-US
 Thursday
 Lord
 Lord Bingham
@@ -88,11 +85,9 @@ Lord Nicholls
 Nicholls
 Birkenhead
 Indefinite
-'A'
 Woodhill
 Woodhill Prison
 Prison
-'law'
 Solicitor
 Solicitor Gareth
 Solicitor Gareth Pierce

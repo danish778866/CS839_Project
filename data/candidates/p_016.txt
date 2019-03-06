@@ -1,6 +1,5 @@
 Crisis
-Crisis 'ahead
-'ahead
+Crisis ahead
 MPs
 Commons
 Major
@@ -17,7 +16,7 @@ Council
 Economic
 Social
 Social Research
-Social Research Council's
+Social Research Council
 Research
-Research Council's
-Council's
+Research Council
+Council

@@ -1,9 +1,6 @@
-PM
 Tony
 Tony Blair
 Blair
-UK's
-IRA
 Guildford
 Woolwich
 Mr Blair
@@ -14,10 +11,10 @@ Westminster
 Mr Blair
 Blair
 Prime
-Prime Minister's
-Prime Minister's Questions
-Minister's
-Minister's Questions
+Prime Minister
+Prime Minister Questions
+Minister
+Minister Questions
 Questions
 House
 Commons
@@ -35,17 +32,15 @@ Blair
 Tony
 Tony Blair
 Blair
-It's
 Ireland
-IRA
-Mr Blair's
-Blair</person>'s
+Mr Blair
+Blair
 Most
 Gerry
 Gerry Conlon
 Conlon
-Mr Conlon's
-Conlon</person>'s
+Mr Conlon
+Conlon
 Giuseppe
 London
 Belfast
@@ -68,8 +63,8 @@ June
 Maguire
 Maguire Seven
 Seven
-Mr Conlon's
-Conlon</person>'s
+Mr Conlon
+Conlon
 Oscarnominated
 Name
 Father

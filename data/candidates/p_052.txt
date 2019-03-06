@@ -1,14 +1,10 @@
 Nuclear
-'key
-UK
-US
 Amitai
 Amitai Etzioni
 Etzioni
 New
 New Labour
 Labour
-US
 Axis
 Evil
 Russia
@@ -17,12 +13,12 @@ Professor
 Professor Etzioni
 Etzioni
 President
-President Carter's
-President Carter's White
-President Carter's White House
-Carter</person>'s
-Carter's White
-Carter's White House
+President Carter
+President Carter White
+President Carter White House
+Carter
+Carter White
+Carter White House
 White
 White House
 House
@@ -56,7 +52,6 @@ Qadeer Khan
 Khan
 Prof Etzioni
 Etzioni
-US
 Pakistani
 Osama
 Osama Bin

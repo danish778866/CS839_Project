@@ -16,7 +16,7 @@ Tony
 Tony Blair
 Blair
 Wednesday
-Labour's
+Labour
 Prime
 Mr Blair
 Blair
@@ -30,8 +30,8 @@ Mr Howard
 Howard
 Institute
 Fiscal
-Fiscal Studies'
-Studies'
+Fiscal Studie
+Studie
 Labour
 Mr Blair
 Blair
@@ -44,7 +44,7 @@ Everyone
 Labour
 Mr Blair
 Blair
-Labour's
+Labour
 When
 Home
 Home Secretary
@@ -56,7 +56,6 @@ Secretary Charles Clarke
 Charles
 Charles Clarke
 Clarke
-UK
 European
 European Union
 Union
@@ -70,7 +69,5 @@ European
 European Council
 Council
 Ministers
-EU
 Mr Blair
 Blair
-UN
