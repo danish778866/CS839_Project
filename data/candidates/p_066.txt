@@ -54,13 +54,13 @@ Order Act
 Act
 Bow
 Bow Street
-Bow Street Magistrates
-Bow Street Magistrates Court
+Bow Street Magistrates'
+Bow Street Magistrates' Court
 Street
-Street Magistrates
-Street Magistrates Court
-Magistrates
-Magistrates Court
+Street Magistrates'
+Street Magistrates' Court
+Magistrates'
+Magistrates' Court
 Court
 December
 Otis

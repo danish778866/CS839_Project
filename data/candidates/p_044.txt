@@ -20,8 +20,8 @@ Accounts
 Accounts Committee
 Committee
 Prince
-Prince Charles
-Charles
+Prince Charles'
+Charles</person>'
 Camilla
 Camilla Parker
 Camilla Parker Bowles
@@ -40,8 +40,8 @@ Queen
 Duchy
 Cornwall
 Prince
-Prince Charles
-Charles
+Prince Charles'
+Charles'
 Duchy
 Cornwall
 King

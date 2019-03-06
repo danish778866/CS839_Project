@@ -38,8 +38,8 @@ Lord
 Lord Carlile
 Carlile
 Law
-Law Lords
-Lords
+Law Lords'
+Lords'
 Charles
 Charles Clarke
 Clarke
@@ -88,9 +88,11 @@ Lord Nicholls
 Nicholls
 Birkenhead
 Indefinite
+'A'
 Woodhill
 Woodhill Prison
 Prison
+'law'
 Solicitor
 Solicitor Gareth
 Solicitor Gareth Pierce

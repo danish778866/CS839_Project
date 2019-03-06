@@ -1,4 +1,4 @@
-Hitler
+'<person>Hitler</person>'
 Welsh
 An
 Welsh
@@ -84,11 +84,13 @@ Russia
 Hitler
 Hitler Germany
 Germany
+'It
 European
 Russia
 Germany
 Century
 Artists
+'
 Wales
 National
 National Assembly
@@ -97,8 +99,8 @@ Wales
 Green
 Valley
 Responding
-Ms James
-James
+Ms James'
+James</person>'
 Mr Pugh
 Pugh
 Comparing

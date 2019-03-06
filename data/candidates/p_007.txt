@@ -1,12 +1,15 @@
 Fox
 Blair
 Blair Tory
-Blair Tory lies
-Blair Tory lies Tony
+Blair Tory 'lies'
+Blair Tory 'lies' Tony
 Tory
-Tory lies
-Tory lies Tony
-Tory lies Tony Blair
+Tory 'lies'
+Tory 'lies' Tony
+Tory 'lies' Tony Blair
+'lies'
+'lies' Tony
+'lies' Tony Blair
 Tony
 Tony Blair
 Blair

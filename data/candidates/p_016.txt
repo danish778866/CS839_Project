@@ -1,5 +1,6 @@
 Crisis
-Crisis ahead
+Crisis 'ahead
+'ahead
 MPs
 Commons
 Major
