@@ -1,7 +1,9 @@
 from gensim.models import KeyedVectors
+import os
+project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
 def word2vec(path):
-    filename = '../models/third_party/GoogleNews-vectors-negative300.bin'
+    filename = project_dir+os.sep+"src"+os.sep+"models"+os.sep+"third_party"+os.sep+"GoogleNews-vectors-negative300.bin"
     model = KeyedVectors.load_word2vec_format(filename, binary=True)
     vec = []
     #return vec
@@ -50,5 +52,7 @@ while i<299:
     i=i+1
 ctr = "299"
 head=head+a+under+ctr
-write_array("../../data/features/word2vec.csv",word2vec("../../data/candidates/candidates.csv"),head)
+writeTO = project_dir+os.sep+"data"+os.sep+"features"+os.sep+"word2vec.csv"
+candFile = project_dir+os.sep+"data"+os.sep+"candidates"+os.sep+"candidates.csv"
+write_array(writeTO,word2vec(candFile),head)
 

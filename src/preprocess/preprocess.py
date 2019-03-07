@@ -208,7 +208,7 @@ def preprocess_driver(data_files, candidates_dir, labels_dir, features_dir):
 
 
 project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
-data_files = project_dir + os.sep + "data" + os.sep + "*.txt"
+data_files = project_dir + os.sep + "data" + os.sep + "train"  + os.sep + "*.txt"
 candidates_dir = project_dir + os.sep + "data" + os.sep + "candidates"
 labels_dir = project_dir + os.sep + "data" + os.sep + "labels"
 features_dir = project_dir + os.sep + "data" + os.sep + "scratch"
