@@ -95,7 +95,7 @@ def load_model(project_dir, classifier):
 
 def main():
     try:
-        opts, args = getopt.getopt(sys.argv[1:], "hd:t:c:s:", ["help", "dev=", "test=", "classifier=", "save"])
+        opts, args = getopt.getopt(sys.argv[1:], "hd:t:c:s", ["help", "dev=", "test=", "classifier=", "save"])
     except getopt.GetoptError as err:
         print(str(err))
         usage()
