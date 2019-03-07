@@ -8,6 +8,7 @@
 import re
 import glob
 import os
+import sys
 
 def preprocess_labeled_files(path):
     #files = glob.glob(path)
@@ -205,11 +206,15 @@ def preprocess_driver(data_files, candidates_dir, labels_dir, features_dir):
         write_data(suffix_file, suffix)
         write_data(feature_ends_apostrophe_file, feature_ends_apostrophe)
 
-
-
-project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
-data_files = project_dir + os.sep + "data" + os.sep + "train"  + os.sep + "*.txt"
-candidates_dir = project_dir + os.sep + "data" + os.sep + "candidates"
-labels_dir = project_dir + os.sep + "data" + os.sep + "labels"
-features_dir = project_dir + os.sep + "data" + os.sep + "scratch"
-preprocess_driver(data_files, candidates_dir, labels_dir, features_dir)
+if __name__ == '__main__': 
+    project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
+    data_dir = sys.argv[1]
+    data_files = project_dir + os.sep + "data" + os.sep + data_dir  + os.sep + "*.txt"
+    candidates_dir = project_dir + os.sep + "data" + os.sep + data_dir + os.sep + "candidates"
+    if not os.path.exists(candidates_dir):
+        os.makedirs(candidates_dir)
+    labels_dir = project_dir + os.sep + "data" + os.sep + data_dir + os.sep +  "labels"
+    if not os.path.exists(labels_dir):
+        os.makedirs(labels_dir)
+    features_dir = project_dir + os.sep + "data" + os.sep + "scratch"
+    preprocess_driver(data_files, candidates_dir, labels_dir, features_dir)

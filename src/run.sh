@@ -7,16 +7,6 @@
 #
 
 SCRIPT=`basename ${BASH_SOURCE[0]}`
-PROJECT_ROOT_DIR=$(dirname $(cd `dirname $0` && pwd))
-LABELS_DIR="${PROJECT_ROOT_DIR}/data/labels"
-CANDIDATES_DIR="${PROJECT_ROOT_DIR}/data/candidates"
-FEATURES_DIR="${PROJECT_ROOT_DIR}/data/features"
-
-CANDIDATES_FILE="${CANDIDATES_DIR}/candidates.csv"
-SUFFIXES_FILE="${CANDIDATES_DIR}/suffixes.csv"
-PREFIXES_FILE="${CANDIDATES_DIR}/prefixes.csv"
-LABELS_FILE="${LABELS_DIR}/labels.csv"
-FEATURES_FILE="${FEATURES_DIR}/features.csv"
 
 COMBINE_FEATURES=0
 COMBINE_CANDIDATES=0
@@ -33,8 +23,9 @@ function HELP {
   echo "Command line switches are optional. The following switches are recognized."
   echo "${REV}-c${NORM}  --Indicates to combine the candidate files"
   echo "${REV}-f${NORM}  --Indicates to combine the features file"
+  echo "${REV}-d${NORM}  --The data set to run the commands on, test or train"
   echo -e "${REV}-h${NORM}  --Displays this help message. No further functions are performed."\\n
-  echo -e "Example: ${BOLD}$SCRIPT -c -f"
+  echo -e "Example: ${BOLD}$SCRIPT -c -f -d train"
   exit 1
 }
 
@@ -52,13 +43,16 @@ fi
 #Notice there is no ":" after "h". The leading ":" suppresses error messages from
 #getopts. This is required to get my unrecognized option code to work.
 
-while getopts cfh FLAG; do
+while getopts :d:cfh FLAG; do
   case $FLAG in
     c)
       COMBINE_CANDIDATES=1
       ;;
     f)
       COMBINE_FEATURES=1
+      ;;
+    d)
+      DATA_SET=$OPTARG
       ;;
     h)  #show help
       HELP
@@ -71,6 +65,18 @@ while getopts cfh FLAG; do
 done
 
 shift $((OPTIND-1))  #This tells getopts to move on to the next argument.
+
+PROJECT_ROOT_DIR=$(dirname $(cd `dirname $0` && pwd))
+LABELS_DIR="${PROJECT_ROOT_DIR}/data/${DATA_SET}/labels"
+CANDIDATES_DIR="${PROJECT_ROOT_DIR}/data/${DATA_SET}/candidates"
+FEATURES_DIR="${PROJECT_ROOT_DIR}/data/${DATA_SET}/features"
+
+CANDIDATES_FILE="${CANDIDATES_DIR}/candidates.csv"
+SUFFIXES_FILE="${CANDIDATES_DIR}/suffixes.csv"
+PREFIXES_FILE="${CANDIDATES_DIR}/prefixes.csv"
+LABELS_FILE="${LABELS_DIR}/labels.csv"
+FEATURES_FILE="${FEATURES_DIR}/features.csv"
+
 
 if [ $COMBINE_CANDIDATES -eq 1 ]
 then

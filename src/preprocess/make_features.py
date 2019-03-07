@@ -2,6 +2,7 @@ from nltk.corpus import wordnet
 from nltk.corpus import wordnet as wn
 import csv
 import os
+import sys
 
 def tag_word(w):
     pos_l = set()
@@ -128,30 +129,32 @@ def write_array(path, content, header):
         f.write(','.join(str(var) for var in line) + "\n")
     f.close()
 
-project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
-candidates_csv = project_dir + os.sep + "data" + os.sep + "candidates" + os.sep + "candidates.csv" 
-prefixes_csv = project_dir + os.sep + "data" + os.sep + "candidates" + os.sep + "prefixes.csv" 
-suffixes_csv = project_dir + os.sep + "data" + os.sep + "candidates" + os.sep + "suffixes.csv" 
-features_dir = project_dir + os.sep + "data" + os.sep + "features" + os.sep
-
-valid_cand  = is_valid(candidates_csv)
-valid_pre = is_valid(prefixes_csv)
-valid_suff = is_valid(suffixes_csv)
-is_missing_pre = is_missing(prefixes_csv)
-is_missing_suf = is_missing(suffixes_csv)
-nvasr_cand = nvasr(candidates_csv)
-nvasr_pre = nvasr(prefixes_csv)
-nvasr_suff = nvasr(suffixes_csv)
-apos = apos_cand(candidates_csv)
-
-write_data(features_dir + "is_valid_cand.csv", valid_cand, "is_cand_valid")
-write_data(features_dir + "is_valid_pre.csv", valid_pre, "is_pre_valid")
-write_data(features_dir + "is_valid_suff.csv", valid_suff, "is_suff_valid")
-write_data(features_dir + "is_missing_pre.csv", is_missing_pre, "is_pre_missing")
-write_data(features_dir + "is_missing_suf.csv", is_missing_suf, "is_suff_missing")
-write_array(features_dir + "tags_cand.csv",nvasr_cand, "n_cand, v_cand,a_cand,s_cand,r_cand")
-write_array(features_dir + "tags_pre.csv",nvasr_pre, "n_pre, v_pre,a_pre,s_pre,r_pre")
-write_array(features_dir + "tags_suff.csv",nvasr_suff, "n_suff, v_suff,a_suff,s_suff,r_suff")
-write_data(features_dir + "has_apos_cand.csv", apos, "has_apos_any")
-
-
+if __name__ == '__main__':
+    data_dir = sys.argv[1]
+    project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
+    candidates_csv = project_dir + os.sep + "data" + os.sep + data_dir + os.sep + "candidates" + os.sep + "candidates.csv" 
+    prefixes_csv = project_dir + os.sep + "data" + os.sep + data_dir + os.sep + "candidates" + os.sep + "prefixes.csv" 
+    suffixes_csv = project_dir + os.sep + "data" + os.sep + data_dir + os.sep + "candidates" + os.sep + "suffixes.csv" 
+    features_dir = project_dir + os.sep + "data" + os.sep + data_dir + os.sep + "features" + os.sep
+    if not os.path.exists(features_dir):
+        os.makedirs(features_dir)
+    
+    valid_cand  = is_valid(candidates_csv)
+    valid_pre = is_valid(prefixes_csv)
+    valid_suff = is_valid(suffixes_csv)
+    is_missing_pre = is_missing(prefixes_csv)
+    is_missing_suf = is_missing(suffixes_csv)
+    nvasr_cand = nvasr(candidates_csv)
+    nvasr_pre = nvasr(prefixes_csv)
+    nvasr_suff = nvasr(suffixes_csv)
+    apos = apos_cand(candidates_csv)
+    
+    write_data(features_dir + "is_valid_cand.csv", valid_cand, "is_cand_valid")
+    write_data(features_dir + "is_valid_pre.csv", valid_pre, "is_pre_valid")
+    write_data(features_dir + "is_valid_suff.csv", valid_suff, "is_suff_valid")
+    write_data(features_dir + "is_missing_pre.csv", is_missing_pre, "is_pre_missing")
+    write_data(features_dir + "is_missing_suf.csv", is_missing_suf, "is_suff_missing")
+    write_array(features_dir + "tags_cand.csv",nvasr_cand, "n_cand, v_cand,a_cand,s_cand,r_cand")
+    write_array(features_dir + "tags_pre.csv",nvasr_pre, "n_pre, v_pre,a_pre,s_pre,r_pre")
+    write_array(features_dir + "tags_suff.csv",nvasr_suff, "n_suff, v_suff,a_suff,s_suff,r_suff")
+    write_data(features_dir + "has_apos_cand.csv", apos, "has_apos_any")

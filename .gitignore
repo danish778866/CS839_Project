@@ -1,4 +1,4 @@
 data/*
 !data/train/*
 !data/test/*
-src/models/third_party/*
+models/third_party/*

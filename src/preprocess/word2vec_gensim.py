@@ -1,5 +1,6 @@
 from gensim.models import KeyedVectors
 import os
+import sys
 project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
 def word2vec(path):
@@ -43,6 +44,7 @@ def write_array(path, content, header):
         f.write(','.join(str(var) for var in line) + "\n")
     f.close()
 
+data_dir = sys.argv[1]
 a = "w2v"
 under = "_"
 comma= ","
@@ -54,7 +56,7 @@ while i<299:
     i=i+1
 ctr = "299"
 head=head+a+under+ctr
-writeTO = project_dir+os.sep+"data"+os.sep+"features"+os.sep+"word2vec.csv"
-candFile = project_dir+os.sep+"data"+os.sep+"candidates"+os.sep+"candidates.csv"
+writeTO = project_dir+os.sep+"data"+os.sep+data_dir+os.sep+"features"+os.sep+"word2vec.csv"
+candFile = project_dir+os.sep+"data"+os.sep+data_dir+os.sep+"candidates"+os.sep+"candidates.csv"
 write_array(writeTO,word2vec(candFile),head)
 
