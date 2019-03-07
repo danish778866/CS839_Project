@@ -46,8 +46,9 @@ def is_valid(path1):
     candidates.close()
     return valid_cand
 
-def write_data(path, content):
+def write_data(path, content, header):
     f = open(path, "w")
+    f.write(str(header)+"\n")
     for line in content:
         f.write(str(line) + "\n")
     f.close()
@@ -111,13 +112,9 @@ def apos_cand(path):
     candidates.close()
     return apos
 
-def write_arr(path, content):
-    with open(path,"w+") as my_csv:
-        csvWriter = csv.writer(my_csv,delimiter=',')
-        csvWriter.writerows(content)
-
-def write_array(path, content):
+def write_array(path, content, header):
     f = open(path, "w")
+    f.write(str(header)+"\n")
     for line in content:
         f.write(','.join(str(var) for var in line) + "\n")
     f.close()
@@ -132,14 +129,14 @@ nvasr_pre = nvasr("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/prefi
 nvasr_suff = nvasr("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/suffixes.csv")
 apos = apos_cand("/Users/somya/Desktop/sem2/CS839_Project/data/candidates/candidates.csv")
 
-write_data("/Users/somya/Desktop/sem2/CS839_Project/data/features/is_valid_cand.csv", valid_cand)
-write_data("/Users/somya/Desktop/sem2/CS839_Project/data/features/is_valid_pre.csv", valid_pre)
-write_data("/Users/somya/Desktop/sem2/CS839_Project/data/features/is_valid_suff.csv", valid_suff)
-write_data("/Users/somya/Desktop/sem2/CS839_Project/data/features/is_missing_pre.csv", is_missing_pre)
-write_data("/Users/somya/Desktop/sem2/CS839_Project/data/features/is_missing_suf.csv", is_missing_suf)
-write_array("/Users/somya/Desktop/sem2/CS839_Project/data/features/tags_cand.csv",nvasr_cand)
-write_array("/Users/somya/Desktop/sem2/CS839_Project/data/features/tags_pre.csv",nvasr_pre)
-write_array("/Users/somya/Desktop/sem2/CS839_Project/data/features/tags_suff.csv",nvasr_suff)
-write_data("/Users/somya/Desktop/sem2/CS839_Project/data/features/has_apos_cand.csv", apos)
+write_data("/Users/somya/Desktop/sem2/CS839_Project/data/features/is_valid_cand.csv", valid_cand, "is_cand_valid")
+write_data("/Users/somya/Desktop/sem2/CS839_Project/data/features/is_valid_pre.csv", valid_pre, "is_pre_valid")
+write_data("/Users/somya/Desktop/sem2/CS839_Project/data/features/is_valid_suff.csv", valid_suff, "is_suff_valid")
+write_data("/Users/somya/Desktop/sem2/CS839_Project/data/features/is_missing_pre.csv", is_missing_pre, "is_pre_missing")
+write_data("/Users/somya/Desktop/sem2/CS839_Project/data/features/is_missing_suf.csv", is_missing_suf, "is_suff_missing")
+write_array("/Users/somya/Desktop/sem2/CS839_Project/data/features/tags_cand.csv",nvasr_cand, "n_cand, v_cand,a_cand,s_cand,r_cand")
+write_array("/Users/somya/Desktop/sem2/CS839_Project/data/features/tags_pre.csv",nvasr_pre, "n_pre, v_pre,a_pre,s_pre,r_pre")
+write_array("/Users/somya/Desktop/sem2/CS839_Project/data/features/tags_suff.csv",nvasr_suff, "n_suff, v_suff,a_suff,s_suff,r_suff")
+write_data("/Users/somya/Desktop/sem2/CS839_Project/data/features/has_apos_cand.csv", apos, "has_apos_any")
 
 
