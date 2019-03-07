@@ -22,9 +22,11 @@ labels = pd.read_csv(labels_csv)
 x = feature_vector.values
 y = labels.values
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.3, random_state = 100) 
-regr = linear_model.LinearRigression()
-regr.fit(x_train, y_train.ravel()) 
-y_pred = regr.predict(x_test) 
+X_train = x_train[:, 3:]
+X_test = x_test[:, 3:]
+regr = linear_model.LinearRegression()
+regr.fit(X_train, y_train.ravel()) 
+y_pred = regr.predict(X_test) 
 y_pred_classify = []
 for pred in y_pred:
     if pred > 0.5:

@@ -22,7 +22,6 @@ y = labels.values
 x_train, x_test, Y_train, Y_test = train_test_split(x, y, test_size=0.2, random_state=0)
 X_train = x_train[:,3:]
 X_test = x_test[:,3:]
-#classifier = 'poly' or 'rbf' for gaussian or 'sigmoid'
 svclassifier = SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
     decision_function_shape='ovr', degree=3, gamma='scale', kernel='poly',
     max_iter=-1, probability=False, random_state=None, shrinking=True,

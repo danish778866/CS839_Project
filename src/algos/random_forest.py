@@ -15,9 +15,11 @@ labels = pd.read_csv(labels_csv)
 x = feature_vector.values
 y = labels.values
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=0)
+X_train = x_train[:,3:]
+X_test = x_test[:,3:]
 classifier = RandomForestClassifier(n_estimators=20, random_state=0)  
-classifier.fit(x_train, y_train.ravel())
-y_pred = classifier.predict(x_test)
+classifier.fit(X_train, y_train.ravel())
+y_pred = classifier.predict(X_test)
 print("...Confusion Matrix...")
 print(confusion_matrix(y_test,y_pred))
 print("...Classification Report...")

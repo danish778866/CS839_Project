@@ -22,9 +22,11 @@ labels = pd.read_csv(labels_csv)
 x = feature_vector.values
 y = labels.values
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.3, random_state = 100) 
+X_train = x_train[:, 3:]
+X_test = x_test[:, 3:]
 clf_gini = DecisionTreeClassifier(criterion = "gini", random_state = 100,max_depth=3, min_samples_leaf=5) 
-clf_gini.fit(x_train, y_train.ravel()) 
-y_pred = clf_gini.predict(x_test) 
+clf_gini.fit(X_train, y_train.ravel()) 
+y_pred = clf_gini.predict(X_test) 
 print("...Confusion Matrix...")
 print(confusion_matrix(y_test,y_pred))
 print("...Classification Report...")

@@ -1,6 +1,7 @@
 from nltk.corpus import wordnet
 from nltk.corpus import wordnet as wn
 import csv
+import os
 
 def tag_word(w):
     pos_l = set()
@@ -33,6 +34,8 @@ def is_valid(path1):
     valid_cand = []
     with open(path1) as candidates:
         current_line = candidates.readline()
+        if current_line:
+            current_line = candidates.readline()
         while current_line:
             cand_words = current_line.split()
             v_c = False
@@ -57,6 +60,8 @@ def is_missing(path):
     is_missing = []
     with open(path) as list:
         current_line = list.readline()
+        if current_line:
+            current_line = list.readline()
         while current_line:
             if current_line == "NA":
                 is_missing.append(1)
@@ -69,6 +74,8 @@ def nvasr(path):
     tags = []
     with open(path) as list:
         current_line = list.readline()
+        if current_line:
+            current_line = list.readline()
         while current_line:
             #print(current_line)
             phrase = current_line.split()
@@ -99,6 +106,8 @@ def apos_cand(path):
     apos = []
     with open(path) as candidates:
         current_line = candidates.readline()
+        if current_line:
+            current_line = candidates.readline()
         while current_line:
             cand_words = current_line.split()
             a=False
@@ -119,24 +128,30 @@ def write_array(path, content, header):
         f.write(','.join(str(var) for var in line) + "\n")
     f.close()
 
-valid_cand  = is_valid("/Users/somya/Desktop/sem2/839_new/CS839_Project/data/candidates/candidates.csv")
-valid_pre = is_valid("/Users/somya/Desktop/sem2/839_new/CS839_Project/data/candidates/prefixes.csv")
-valid_suff = is_valid("/Users/somya/Desktop/sem2/839_new/CS839_Project/data/candidates/suffixes.csv")
-is_missing_pre = is_missing("/Users/somya/Desktop/sem2/839_new/CS839_Project/data/candidates/prefixes.csv")
-is_missing_suf = is_missing("/Users/somya/Desktop/sem2/839_new/CS839_Project/data/candidates/suffixes.csv")
-nvasr_cand = nvasr("/Users/somya/Desktop/sem2/839_new/CS839_Project/data/candidates/candidates.csv")
-nvasr_pre = nvasr("/Users/somya/Desktop/sem2/839_new/CS839_Project/data/candidates/prefixes.csv")
-nvasr_suff = nvasr("/Users/somya/Desktop/sem2/839_new/CS839_Project/data/candidates/suffixes.csv")
-apos = apos_cand("/Users/somya/Desktop/sem2/839_new/CS839_Project/data/candidates/candidates.csv")
+project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
+candidates_csv = project_dir + os.sep + "data" + os.sep + "candidates" + os.sep + "candidates.csv" 
+prefixes_csv = project_dir + os.sep + "data" + os.sep + "candidates" + os.sep + "prefixes.csv" 
+suffixes_csv = project_dir + os.sep + "data" + os.sep + "candidates" + os.sep + "suffixes.csv" 
+features_dir = project_dir + os.sep + "data" + os.sep + "features" + os.sep
 
-write_data("/Users/somya/Desktop/sem2/839_new/CS839_Project/data/features/is_valid_cand.csv", valid_cand, "is_cand_valid")
-write_data("/Users/somya/Desktop/sem2/839_new/CS839_Project/data/features/is_valid_pre.csv", valid_pre, "is_pre_valid")
-write_data("/Users/somya/Desktop/sem2/839_new/CS839_Project/data/features/is_valid_suff.csv", valid_suff, "is_suff_valid")
-write_data("/Users/somya/Desktop/sem2/839_new/CS839_Project/data/features/is_missing_pre.csv", is_missing_pre, "is_pre_missing")
-write_data("/Users/somya/Desktop/sem2/839_new/CS839_Project/data/features/is_missing_suf.csv", is_missing_suf, "is_suff_missing")
-write_array("/Users/somya/Desktop/sem2/839_new/CS839_Project/data/features/tags_cand.csv",nvasr_cand, "n_cand, v_cand,a_cand,s_cand,r_cand")
-write_array("/Users/somya/Desktop/sem2/839_new/CS839_Project/data/features/tags_pre.csv",nvasr_pre, "n_pre, v_pre,a_pre,s_pre,r_pre")
-write_array("/Users/somya/Desktop/sem2/839_new/CS839_Project/data/features/tags_suff.csv",nvasr_suff, "n_suff, v_suff,a_suff,s_suff,r_suff")
-write_data("/Users/somya/Desktop/sem2/839_new/CS839_Project/data/features/has_apos_cand.csv", apos, "has_apos_any")
+valid_cand  = is_valid(candidates_csv)
+valid_pre = is_valid(prefixes_csv)
+valid_suff = is_valid(suffixes_csv)
+is_missing_pre = is_missing(prefixes_csv)
+is_missing_suf = is_missing(suffixes_csv)
+nvasr_cand = nvasr(candidates_csv)
+nvasr_pre = nvasr(prefixes_csv)
+nvasr_suff = nvasr(suffixes_csv)
+apos = apos_cand(candidates_csv)
+
+write_data(features_dir + "is_valid_cand.csv", valid_cand, "is_cand_valid")
+write_data(features_dir + "is_valid_pre.csv", valid_pre, "is_pre_valid")
+write_data(features_dir + "is_valid_suff.csv", valid_suff, "is_suff_valid")
+write_data(features_dir + "is_missing_pre.csv", is_missing_pre, "is_pre_missing")
+write_data(features_dir + "is_missing_suf.csv", is_missing_suf, "is_suff_missing")
+write_array(features_dir + "tags_cand.csv",nvasr_cand, "n_cand, v_cand,a_cand,s_cand,r_cand")
+write_array(features_dir + "tags_pre.csv",nvasr_pre, "n_pre, v_pre,a_pre,s_pre,r_pre")
+write_array(features_dir + "tags_suff.csv",nvasr_suff, "n_suff, v_suff,a_suff,s_suff,r_suff")
+write_data(features_dir + "has_apos_cand.csv", apos, "has_apos_any")
 
 

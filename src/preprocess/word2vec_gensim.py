@@ -10,6 +10,8 @@ def word2vec(path):
     with open(path) as list:
         num=0
         current_line = list.readline()
+        if current_line:
+            current_line = list.readline()
         while current_line:
             num=num+1
             print(num)
