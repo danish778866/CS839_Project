@@ -118,11 +118,12 @@ def main():
         else:
             assert False, "unhandled option"
     project_dir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
-    if dev_dir != "" and test_dir != "" and classifier != "":
+    if dev_dir != "" and classifier != "":
         model = train_model(project_dir, dev_dir, classifier)
         if save_model:
             finalize_model(model, project_dir, classifier)
-        test_model(model, project_dir, test_dir, classifier)
+        if test_dir != "":
+            test_model(model, project_dir, test_dir, classifier)
     elif dev_dir == "" and test_dir != "" and classifier != "":
         model = load_model(project_dir, classifier)
         test_model(model, project_dir, test_dir, classifier)

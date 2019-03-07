@@ -125,7 +125,7 @@ def word2vec(path, model_path):
             current_line = list.readline()
         while current_line:
             num=num+1
-            print(num)
+            #print(num)
             phrase = current_line.split()
             cur_tag = [0]*300
             j = 0
