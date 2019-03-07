@@ -1,57 +1,39 @@
-#Reference : https://www.geeksforgeeks.org/linear-regression-python-implementation/
+# Run this program on your local python 
+# interpreter, provided you have installed 
+# the required libraries.
 
+#Reference : https://www.geeksforgeeks.org/decision-tree-implementation-python/
+  
+# Importing the required packages 
 import numpy as np 
-import matplotlib.pyplot as plt 
-
-def estimate_coef(x, y): 
-	# number of observations/points 
-	n = np.size(x) 
-
-	# mean of x and y vector 
-	m_x, m_y = np.mean(x), np.mean(y) 
-
-	# calculating cross-deviation and deviation about x 
-	SS_xy = np.sum(y*x) - n*m_y*m_x 
-	SS_xx = np.sum(x*x) - n*m_x*m_x 
-
-	# calculating regression coefficients 
-	b_1 = SS_xy / SS_xx 
-	b_0 = m_y - b_1*m_x 
-
-	return(b_0, b_1) 
-
-def plot_regression_line(x, y, b): 
-	# plotting the actual points as scatter plot 
-	plt.scatter(x, y, color = "m", 
-			marker = "o", s = 30) 
-
-	# predicted response vector 
-	y_pred = b[0] + b[1]*x 
-
-	# plotting the regression line 
-	plt.plot(x, y_pred, color = "g") 
-
-	# putting labels 
-	plt.xlabel('x') 
-	plt.ylabel('y') 
-
-	# function to show plot 
-	plt.show() 
-
-def main(): 
-	# observations 
-	x = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9]) 
-	y = np.array([1, 3, 2, 5, 7, 8, 8, 9, 10, 12]) 
-
-	# estimating coefficients 
-	b = estimate_coef(x, y) 
-	print("Estimated coefficients:\nb_0 = {} \ 
-		\nb_1 = {}".format(b[0], b[1])) 
-
-	# plotting regression line 
-	plot_regression_line(x, y, b) 
-
-if __name__ == "__main__": 
-	main() 
-
-
+import pandas as pd 
+import os
+from sklearn.metrics import confusion_matrix 
+from sklearn.model_selection import train_test_split 
+from sklearn import linear_model
+from sklearn.metrics import accuracy_score 
+from sklearn.metrics import classification_report 
+  
+project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
+features_csv = project_dir + os.sep + "data" + os.sep + "features" + os.sep + "features.csv" 
+labels_csv = project_dir + os.sep + "data" + os.sep + "labels" + os.sep + "labels.csv"
+feature_vector = pd.read_csv(features_csv)
+labels = pd.read_csv(labels_csv)
+x = feature_vector.values
+y = labels.values
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.3, random_state = 100) 
+regr = linear_model.LinearRigression()
+regr.fit(x_train, y_train.ravel()) 
+y_pred = regr.predict(x_test) 
+y_pred_classify = []
+for pred in y_pred:
+    if pred > 0.5:
+        y_pred_classify.append(1)
+    else:
+        y_pred_classify.append(0)
+print("...Confusion Matrix...")
+print(confusion_matrix(y_test,y_pred_classify))
+print("...Classification Report...")
+print(classification_report(y_test,y_pred_classify))
+print("...Accuracy Score...")
+print(accuracy_score(y_test, y_pred_classify))
