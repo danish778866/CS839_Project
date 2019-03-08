@@ -19,7 +19,7 @@ REV=`tput smso`
 # Help function
 function HELP {
   echo -e \\n"Help documentation for ${BOLD}${SCRIPT}.${NORM}"\\n
-  echo -e "${REV}Basic usage:${NORM} ${BOLD}$SCRIPT -d <dev_data_dir_name> -t <test_data_dir_name> -c [svm|regression|random|decision] [-s]${NORM}"\\n
+  echo -e "${REV}Basic usage:${NORM} ${BOLD}$SCRIPT -d <dev_data_dir_name> -t <test_data_dir_name> -c [svm|logistic|linear|random|decision] [-s] [-p]${NORM}"\\n
   echo "Command line switches are optional. The following switches are recognized."
   echo "${REV}-c${NORM}  --The classifier to train and test the data on, can take the values svm, regression, random and decision"
   echo "${REV}-s${NORM}  --Indicates whether to save the model or not"
@@ -34,7 +34,7 @@ function HELP {
   echo -e "Train model on svm : ${BOLD}$SCRIPT -d train -c svm${NORM}"
   echo -e "Test saved model on svm : ${BOLD}$SCRIPT -t test -c svm${NORM}"
   echo -e "Train, test and save model on svm by cleaning and generating the candidates, features and labels again : ${BOLD}$SCRIPT -d train -t test -c svm -s -p${NORM}"
-  exit 1
+  exit 0
 }
 
 # Check the number of arguments. If none are passed, print help and exit.

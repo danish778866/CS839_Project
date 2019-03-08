@@ -1,0 +1,98 @@
+...Confusion Matrix...
+[[1564  139]
+ [  65  902]]
+...Classification Report...
+              precision    recall  f1-score   support
+
+           0       0.96      0.92      0.94      1703
+           1       0.87      0.93      0.90       967
+
+   micro avg       0.92      0.92      0.92      2670
+   macro avg       0.91      0.93      0.92      2670
+weighted avg       0.93      0.92      0.92      2670
+
+...Accuracy Score...
+0.9235955056179775
+(array(['Williams Jr', 'star Hank', nan], dtype=object), array([1]), 0)
+(array(['De', 'through a', 'Marigny penalty'], dtype=object), array([1]), 0)
+(array(['Houston', 'the Whitney', 'film The'], dtype=object), array([1]), 0)
+(array(['Vera Drake', nan, 'scoops film'], dtype=object), array([1]), 0)
+(array(['Marcia Cross', 'Housewives stars', 'and Felicity'], dtype=object), array([1]), 0)
+(array(['Dimitrakopoulos', 'lawyers Michalis', nan], dtype=object), array([1]), 0)
+(array(['Dergarabedian', 'said Mr', nan], dtype=object), array([1]), 0)
+(array(['Hans Christian', 'of writer', 'Andersen'], dtype=object), array([1]), 0)
+(array(['Pullman', 'newspaper that', 'was happy'], dtype=object), array([1]), 0)
+(array(['De', nan, 'Niro film'], dtype=object), array([1]), 0)
+(array(['Chancellor', 'The Lord', 'Lord Falconer'], dtype=object), array([1]), 0)
+(array(['Hermione', 'Ron and', 'can put'], dtype=object), array([1]), 0)
+(array(['Serwotka', 'leader Mark', 'warned last'], dtype=object), array([1]), 0)
+(array(['S', 'by journalist', 'Hussain Zaidi'], dtype=object), array([1]), 0)
+(array(['Lily', nan, 'Tucks The'], dtype=object), array([1]), 0)
+(array(['Jr', 'Hank Williams', nan], dtype=object), array([1]), 0)
+(array(['Director Southan Morris', nan, 'and executive'], dtype=object), array([1]), 0)
+(array(['Christian', 'the Hans', 'Anderson School'], dtype=object), array([1]), 0)
+(array(['OHerlihy', 'nominee Dan', 'dies Irish'], dtype=object), array([1]), 0)
+(array(['Dubs', 'back Lord', 'Succession to'], dtype=object), array([1]), 0)
+(array(['Reno', 'star Jean', 'was Frances'], dtype=object), array([1]), 0)
+(array(['Andersen</person>s', 'Christian', 'fairy tales'], dtype=object), array([1]), 0)
+(array(['Guy', 'Hasna and', 'a blues'], dtype=object), array([1]), 0)
+(array(['Law', 'starring Jude', 'and Julia'], dtype=object), array([1]), 0)
+(array(['Santa', 'to meet', 'Claus'], dtype=object), array([1]), 0)
+(array(['Robin Broke', 'Alva director', 'said Visits'], dtype=object), array([1]), 0)
+(array(['DArcy', 'star Gordon', 'and Australian'], dtype=object), array([1]), 0)
+(array(['Elvis', nan, 'set to'], dtype=object), array([1]), 0)
+(array(['JeanMichel', '1980s including', 'Basquiat and'], dtype=object), array([1]), 0)
+(array(['Bowie', 'and David', nan], dtype=object), array([1]), 0)
+(array(['LewisFrancis', 'and Mark', 'are Olympic'], dtype=object), array([1]), 0)
+(array(['Debussy', 'Chopin and', 'I listen'], dtype=object), array([1]), 0)
+(array(['Ally Warnock', nan, 'clawed back'], dtype=object), array([1]), 0)
+(array(['Martin Luther King Jnr', 'of both', 'and Malcolm'], dtype=object), array([1]), 0)
+(array(['Guy Mansfield', 'Bar Council', 'QC has'], dtype=object), array([1]), 0)
+(array(['Mansfield QC', 'Council Guy', 'has warned'], dtype=object), array([1]), 0)
+(array(['Bush', 'an outspoken', 'critic in'], dtype=object), array([1]), 0)
+(array(['Bin Laden', 'hunting Osama', nan], dtype=object), array([1]), 0)
+(array(['Cape', 'correspondent Stephen', nan], dtype=object), array([1]), 0)
+(array(['De Marigny', 'fullback Roland', 'and a'], dtype=object), array([1]), 0)
+(array(['Baroness', 'Office minister', 'Scotland said'], dtype=object), array([1]), 0)
+(array(['Emperor', 'includes The', 'New Clothes'], dtype=object), array([1]), 0)
+(array(['S Hussain', 'by journalist', 'Zaidi which'], dtype=object), array([1]), 0)
+(array(['Asagoe', 'beat Shinobu', '64 64'], dtype=object), array([1]), 0)
+(array(['Rascal', 'included Dizzee', 'in at'], dtype=object), array([1]), 0)
+(array(['Gardener', 'Jason', 'and Mark'], dtype=object), array([1]), 0)
+(array(['Hans Christian Andersen Award', 'with the', 'this spring'],
+      dtype=object), array([1]), 0)
+(array(['Colin High', 'exinternational referees', 'and Steve'],
+      dtype=object), array([1]), 0)
+(array(['Dubs', 'by Lord', 'were a'], dtype=object), array([1]), 0)
+(array(['Joss', nan, 'Whedon described'], dtype=object), array([1]), 0)
+(array(['Christian', 'Olympic champion', 'Olsson will'], dtype=object), array([1]), 0)
+(array(['Bovina', 'Russias Elena', '16 61'], dtype=object), array([1]), 0)
+(array(['Laden', 'Osama Bin', nan], dtype=object), array([1]), 0)
+(array(['ScottJoynt', 'Rt Rev', 'argued'], dtype=object), array([1]), 0)
+(array(['Rock', 'newcomer Chris', 'takes place'], dtype=object), array([1]), 0)
+(array(['Saumarez', 'Mr', 'Smith added'], dtype=object), array([1]), 0)
+(array(['Emperor New Clothes', 'includes The', 'and The'], dtype=object), array([1]), 0)
+(array(['Bones', 'The Lovely', 'sold over'], dtype=object), array([1]), 0)
+(array(['Law', 'Mr', 'added I'], dtype=object), array([1]), 0)
+(array(['Weston', 'substitute Jonny', 'had set'], dtype=object), array([1]), 0)
+(array(['MurphyOConnor', 'Cardinal Cormac', 'has said'], dtype=object), array([1]), 0)
+(array(['Will', 'among them', 'Smith Kevin'], dtype=object), array([1]), 0)
+(array(['Sydney Poitier', 'Out starring', 'and Ruby'], dtype=object), array([1]), 0)
+(array(['Ram', 'and Andy', nan], dtype=object), array([1]), 0)
+(array(['Baroness Scotland', 'Office minister', 'said Murder'],
+      dtype=object), array([1]), 0)
+...Confusion Matrix...
+[[4083  291]
+ [ 225 2111]]
+...Classification Report...
+              precision    recall  f1-score   support
+
+           0       0.95      0.93      0.94      4374
+           1       0.88      0.90      0.89      2336
+
+   micro avg       0.92      0.92      0.92      6710
+   macro avg       0.91      0.92      0.92      6710
+weighted avg       0.92      0.92      0.92      6710
+
+...Accuracy Score...
+0.9230998509687034

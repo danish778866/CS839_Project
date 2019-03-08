@@ -5,7 +5,7 @@ import pickle
 from sklearn.model_selection import train_test_split  
 from sklearn.svm import SVC 
 from sklearn.ensemble import RandomForestClassifier
-from sklearn import linear_model
+from sklearn.linear_model import LogisticRegression, LinearRegression
 from sklearn.tree import DecisionTreeClassifier 
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score  
 
@@ -26,6 +26,7 @@ def train_model(project_dir, dev_dir_name, classifier):
     model = create_model(x_train, y_train, classifier)
     y_pred = predict_class(model, x_test, classifier)
     print_prediction_stats(y_test, y_pred)
+    print_wrong_predictions(y_pred, y_test, x_test)
     return model
 
 def read_input(project_dir, data_dir_name):
@@ -47,8 +48,10 @@ def create_model(x_train, y_train, classifier):
            decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
            max_iter=-1, probability=False, random_state=None, shrinking=True,
            tol=0.001, verbose=False)       
-    elif classifier == "regression":
-        model = linear_model.LinearRegression()
+    elif classifier == "linear":
+        model = LinearRegression()
+    elif classifier == "logistic":
+        model = LogisticRegression(random_state=0, solver='liblinear', multi_class='ovr')
     elif classifier == "random":
         model = RandomForestClassifier(n_estimators=20, random_state=0)  
     elif classifier == "decision":
@@ -63,7 +66,7 @@ def create_model(x_train, y_train, classifier):
 def predict_class(model, x_test, classifier):
     X_test = x_test[:, 3:]
     y_pred = model.predict(X_test)
-    if classifier == "regression":
+    if classifier == "linear":
         y_pred = [1 if y > 0.5 else 0 for y in y_pred]
     return y_pred
    
@@ -77,7 +80,7 @@ def print_prediction_stats(y_test, y_pred):
 
 def print_wrong_predictions(y_pred, y_test, x_test):
     for yp, yt, xt in zip(y_pred, y_test, x_test):
-        if yp != yt:
+        if yp != yt and yt == 1:
             print (xt[0:3], yt, yp)
 
 def finalize_model(model, project_dir, classifier):
