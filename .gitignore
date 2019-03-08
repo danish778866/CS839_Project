@@ -1,4 +1,5 @@
 data/*
 !data/train/*.txt
 !data/test/*.txt
+!data/all_docs/*.txt
 models/third_party/*
