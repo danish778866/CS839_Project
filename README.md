@@ -26,3 +26,4 @@ The organization of this repository is as follows:
   - `logs`: The folder containing accuracy logs for different classifiers.
   - `models`: The folder containing models that were trained on the train data
     set.
+  - `report.pdf`: The stage 1 report.

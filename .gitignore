@@ -3,3 +3,4 @@ stage_1/data/*
 !stage_1/data/test/*.txt
 !stage_1/data/all_docs/*.txt
 stage_1/models/third_party/*
+.DS_Store
