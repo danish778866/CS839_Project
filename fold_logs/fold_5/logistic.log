@@ -1,0 +1,94 @@
+...Confusion Matrix...
+[[1502   99]
+ [  64  765]]
+...Classification Report...
+              precision    recall  f1-score   support
+
+           0       0.96      0.94      0.95      1601
+           1       0.89      0.92      0.90       829
+
+   micro avg       0.93      0.93      0.93      2430
+   macro avg       0.92      0.93      0.93      2430
+weighted avg       0.93      0.93      0.93      2430
+
+...Accuracy Score...
+0.9329218106995885
+['QC' 'Guy Mansfield' 'has warned'] [1] 0
+['HeninHardenne' 'champion Justine' 'is also'] [1] 0
+['JeanPierre' 'directed by' 'Jeunet'] [1] 0
+['Belmar' 'Richard' 'and Moazzam'] [1] 0
+['Dame Judi' 'Last Summer' 'Dench was'] [1] 0
+['Mark Serwotka' 'PCS leader' 'warned last'] [1] 0
+['Orlando' 'British boyfriend' 'Bloom'] [1] 0
+['Paul Dergarabedian' '2004 said' 'president of'] [1] 0
+['DArcy' 'Brian ODriscoll' 'failed to'] [1] 0
+['Frost' 'But David' 'director general'] [1] 0
+['Evans Jr' 'Charles' 'battled over'] [1] 0
+['John Beaumont' 'Chief executive' 'was paid'] [1] 0
+['Thackeray' 'William Makepeace' 'novel Vanity'] [1] 0
+['Pullman' nan 'trilogy has'] [1] 0
+['Alexander' 'directed by' 'Payne who'] [1] 0
+['Christian Olsson' 'Olympic champion' 'will not'] [1] 0
+['Doris Day' 'of actress' 'he helped'] [1] 0
+['Jr' 'Charles Evans' 'battled over'] [1] 0
+['Gorbachev' 'leader Mikhail' 'and author'] [1] 0
+['Jr' 'Hank Williams' 'but instead'] [1] 0
+['Hans Christian Andersen Award' 'with the' 'this spring'] [1] 0
+['Balls' 'backwards Mr' 'told Today'] [1] 0
+['William Makepeace Thackeray' 'to make' 'novel Vanity'] [1] 0
+['Dubs' 'if Lord' 'private members'] [1] 0
+['S' 'by journalist' 'Hussain Zaidi'] [1] 0
+['Lemony' 'adaptation of' 'Snicket novels'] [1] 0
+['DArcy' nan 'injury adds'] [1] 0
+['Emperor' 'includes The' 'New Clothes'] [1] 0
+['JK' 'Potter author' 'Rowling will'] [1] 0
+['Pax' 'of Salam' 'not'] [1] 0
+['Pakistani' 'return for' 'help in'] [1] 0
+['David Frost' 'But' 'director general'] [1] 0
+['Nathalie Press' 'Blunt and' 'who were'] [1] 0
+['Law' 'starring Jude' 'and Julia'] [1] 0
+['Emperor New Clothes' 'includes The' 'and The'] [1] 0
+['Bones' 'The Lovely' 'sold over'] [1] 0
+['Ray' 'late soulsinger' 'Charles in'] [1] 0
+['Bradfield' 'James Dean' 'will appear'] [1] 0
+['Spike Lee' 'stars including' 'Burt Reynolds'] [1] 0
+['David Laws' 'Liberal Democrat' 'said it'] [1] 0
+['Major' 'in John' 'government'] [1] 0
+['Selma' 'by actors' 'Blair and'] [1] 0
+['Amma' 'British writerdirector' 'Asante won'] [1] 0
+['Odense' 'hometown of' nan] [1] 0
+['Sharp' 'about Becky' 'being eventually'] [1] 0
+['Marley' 'star Bob' 'Rob Partridge'] [1] 0
+['White' 'Jake' 'claimed the'] [1] 0
+['Ray' 'and the' 'Charles biopic'] [1] 0
+['Costa' 'Spaniard' 'will next'] [1] 0
+['Marcia Cross' 'Housewives stars' 'and Felicity'] [1] 0
+['HeninHardenne' 'return for' 'Olympic champion'] [1] 0
+['Santa' 'to meet' 'Claus'] [1] 0
+['Spielberg' 'air Steven' 'film Saving'] [1] 0
+['Paisley' 'Ian' nan] [1] 0
+['Albert' 'down to' 'Costa'] [1] 0
+['Christ' 'of Jesus' 'life when'] [1] 0
+['White' 'rugby said' nan] [1] 0
+['Dergarabedian' 'said Mr' nan] [1] 0
+['Theresa May' 'the Family' 'said These'] [1] 0
+['Dubs' 'back Lord' 'Succession to'] [1] 0
+['Lyra Belacqua' 'school child' nan] [1] 0
+['John Major' 'mistake that' 'and his'] [1] 0
+['Law' 'starring Jude' 'and Dustin'] [1] 0
+['JK' 'have included' 'Rowling Jacqueline'] [1] 0
+...Confusion Matrix...
+[[751  54]
+ [ 42 356]]
+...Classification Report...
+              precision    recall  f1-score   support
+
+           0       0.95      0.93      0.94       805
+           1       0.87      0.89      0.88       398
+
+   micro avg       0.92      0.92      0.92      1203
+   macro avg       0.91      0.91      0.91      1203
+weighted avg       0.92      0.92      0.92      1203
+
+...Accuracy Score...
+0.9201995012468828

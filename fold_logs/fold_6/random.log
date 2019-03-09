@@ -1,0 +1,135 @@
+...Confusion Matrix...
+[[1501   88]
+ [ 105  724]]
+...Classification Report...
+              precision    recall  f1-score   support
+
+           0       0.93      0.94      0.94      1589
+           1       0.89      0.87      0.88       829
+
+   micro avg       0.92      0.92      0.92      2418
+   macro avg       0.91      0.91      0.91      2418
+weighted avg       0.92      0.92      0.92      2418
+
+...Accuracy Score...
+0.9201819685690653
+['Keane' 'Free beat' 'Hope and'] [1] 0
+['Sellers' 'as Peter' 'in the'] [1] 0
+['Poitier' 'starring Sydney' 'and Ruby'] [1] 0
+['Asante' 'writerdirector Amma' 'won the'] [1] 0
+['Gilbert' 'Hazel' '23 an'] [1] 0
+['LewisFrancis' 'and Mark' nan] [1] 0
+['Asher D' 'Crew rapper' nan] [1] 0
+['Charles Dance' 'Kim Cattrall' 'Bill Nighy'] [1] 0
+['Jonah' 'Black star' 'Lomu says'] [1] 0
+['Simpson' 'frontman Charlie' 'planned to'] [1] 0
+['Gere' 'and Richard' 'romantic comedy'] [1] 0
+['Director' nan 'Southan Morris'] [1] 0
+['Jonathan Cope' 'Bussell and' 'are'] [1] 0
+['Amma' 'British writerdirector' 'Asante won'] [1] 0
+['Madonna' 'Paul Simon' 'and David'] [1] 0
+['Mikhail Gorbachev' 'Soviet leader' 'and author'] [1] 0
+['Cosby' 'by Bill' 'moved'] [1] 0
+['Lenkiewicz' 'named Rebecca' 'its most'] [1] 0
+['DeMille' 'Cecil B' 'award for'] [1] 0
+['Blears' 'Minister Hazel' 'also revealed'] [1] 0
+['Norman Cook' 'Fatboy DJ' 'aka'] [1] 0
+['Sibley' 'Dame Antoinette' 'president of'] [1] 0
+['Stephen Hawking' 'author Professor' nan] [1] 0
+['Bruce' 'studio include' 'Springsteens Born'] [1] 0
+['Pepito' 'replacement for' 'Elhorga'] [1] 0
+['Mohammed Ali' nan 'has always'] [1] 0
+['Baroness Scotland' 'Office minister' 'said Murder'] [1] 0
+['Gbagbo' 'President Laurent' 'broke an'] [1] 0
+['Ato' 'me and' 'Boldon in'] [1] 0
+['Sydney Poitier' 'Out starring' 'and Ruby'] [1] 0
+['Rather' 'anchor Dan' nan] [1] 0
+['Bill Cosby' 'cowritten by' 'moved'] [1] 0
+['June' nan 'Carter Cash'] [1] 0
+['Marcia Cross' 'Housewives stars' 'and Felicity'] [1] 0
+['Paul' 'and Henry' 'who'] [1] 0
+['Belmar' 'Richard' 'and Moazzam'] [1] 0
+['Day' 'actress Doris' 'he helped'] [1] 0
+['Snipes' 'Wesley' 'Blade Trinity'] [1] 0
+['Jude Law' 'Huckabees starring' 'and Dustin'] [1] 0
+['Rupert' 'Hill spokesman' 'Adams'] [1] 0
+['Wonder' 'with Stevie' nan] [1] 0
+['D' 'rapper Asher' nan] [1] 0
+['Rock' 'newcomer Chris' 'takes place'] [1] 0
+['Meadows' 'Shane' 'and Kevin'] [1] 0
+['Laurent Gbagbo' 'after President' 'broke an'] [1] 0
+['Joe' 'Substitute' 'Pattison'] [1] 0
+['Weston' 'substitute Jonny' 'had set'] [1] 0
+['Meadows' 'from Shane' 'critically acclaimed'] [1] 0
+['Zubair' 'The BBCs' 'Ahmed in'] [1] 0
+['Hore' 'by Charlie' 'only'] [1] 0
+['Juliette' 'Paradis and' 'Binoche'] [1] 0
+['Conlon' 'Four Gerry' 'who'] [1] 0
+['Hoskins' 'actors Bob' 'and Brenda'] [1] 0
+['QC' 'Guy Mansfield' 'has warned'] [1] 0
+['Campbell' nan 'swears shock'] [1] 0
+['Mandelson' 'after Peter' 'former Labour'] [1] 0
+['Laws' 'Democrat David' 'said it'] [1] 0
+['Girvan' nan 'Dempsey comes'] [1] 0
+['Carolina Kluft' 'Swedens' 'the Olympic'] [1] 0
+['Harry' 'Prince' 'should see'] [1] 0
+['Harel Levy' 'number 30' 'and Bogdanovic'] [1] 0
+['Stone' '39 Joss' 'was 40th'] [1] 0
+['Beverley' 'immigration minister' 'Hughes last'] [1] 0
+['Mohammed' nan 'Ali has'] [1] 0
+['Marley' 'worked with' 'from 1977'] [1] 0
+['Luther King Jnr' 'both Martin' 'and Malcolm'] [1] 0
+['Nathalie Press' 'Blunt and' 'who were'] [1] 0
+['Eve' 'US playwright' 'Ensler says'] [1] 0
+['Sam Younger' 'Commission chairman' 'said There'] [1] 0
+['Harry' 'William and' 'receive taxpayers'] [1] 0
+['Teena' 'transsexual Brandon' nan] [1] 0
+['Cohen' 'Ben' 'could also'] [1] 0
+['Carvel' 'journalist John' 'who published'] [1] 0
+['Makepeace' 'make William' 'Thackerays novel'] [1] 0
+['Adera' 'Ethiopian Berhane' 'in Stuttgart'] [1] 0
+['Higdon' 'David' 'Vice President'] [1] 0
+['Brokaw' 'newscasters Tom' 'Barbara Walters'] [1] 0
+['Will' 'among them' 'Smith Kevin'] [1] 0
+['Sebold' 'by Alice' nan] [1] 0
+['Denzel' 'Masala starring' 'Washington and'] [1] 0
+['Oldman' 'including Gary' 'and Emma'] [1] 0
+['Felicity' 'Cross and' 'Huffman to'] [1] 0
+['Collins' 'champion Kim' 'will compete'] [1] 0
+['Kostas Kenteris' 'be cleared' 'lawyer has'] [1] 0
+['Gilbert' 'with Brad' 'on Monday'] [1] 0
+['Gordievsky' 'Oleg' 'a senior'] [1] 0
+['Begg' 'and Moazzam' 'have'] [1] 0
+['Moazzam Begg' 'Belmar and' 'have'] [1] 0
+['Katherine' 'His mother' 'Jackson told'] [1] 0
+['Orlando Bloom' 'British boyfriend' nan] [1] 0
+['S Hussain' 'by journalist' 'Zaidi which'] [1] 0
+['Hussein Chalayan' 'fashion designer' 'and former'] [1] 0
+['Broke' 'director Robin' 'said Visits'] [1] 0
+['Harry' 'grandson Prince' 'sparked outrage'] [1] 0
+['Jesus' 'hours of' 'Christs life'] [1] 0
+['Hanks' nan 'said that'] [1] 0
+['Elliot' 'and director' 'Grove'] [1] 0
+['Pepsi' 'backing singers' 'and Shirlie'] [1] 0
+['Howard' 'Mr' 'branded the'] [1] 0
+['Laden' 'Osama Bin' nan] [1] 0
+['Hanks' nan 'greeted at'] [1] 0
+['Helena' 'Blanchett and' 'BonhamCarter'] [1] 0
+['Brockstein' 'winner Steve' 'cover of'] [1] 0
+['David Kahn' 'backed by' 'a'] [1] 0
+['Dizzee Rascal' 'list included' 'in at'] [1] 0
+...Confusion Matrix...
+[[701  35]
+ [141 383]]
+...Classification Report...
+              precision    recall  f1-score   support
+
+           0       0.83      0.95      0.89       736
+           1       0.92      0.73      0.81       524
+
+   micro avg       0.86      0.86      0.86      1260
+   macro avg       0.87      0.84      0.85      1260
+weighted avg       0.87      0.86      0.86      1260
+
+...Accuracy Score...
+0.8603174603174604

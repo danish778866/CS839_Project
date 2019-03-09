@@ -1,0 +1,111 @@
+...Confusion Matrix...
+[[1527   69]
+ [  81  711]]
+...Classification Report...
+              precision    recall  f1-score   support
+
+           0       0.95      0.96      0.95      1596
+           1       0.91      0.90      0.90       792
+
+   micro avg       0.94      0.94      0.94      2388
+   macro avg       0.93      0.93      0.93      2388
+weighted avg       0.94      0.94      0.94      2388
+
+...Accuracy Score...
+0.9371859296482412
+['Gomarsall' 'Gloucesters Andy' nan] [1] 0
+['Washington' 'starring Denzel' 'and The'] [1] 0
+['Bunuel' 'for Luis' 'The Adventures'] [1] 0
+['Feroz' 'sent to' 'Abbasi the'] [1] 0
+['Andrew Green' 'Sir' 'chairman of'] [1] 0
+['Santa' 'to meet' 'Claus'] [1] 0
+['Eminem' 'Bomb pushed' 'Like Toy'] [1] 0
+['Laws' 'Democrat David' 'said it'] [1] 0
+['Vera Drake' nan 'scoops film'] [1] 0
+['Jerry Springer' 'hit show' 'The'] [1] 0
+['Gardener' 'Jason' 'and Mark'] [1] 0
+['Adrien' 'Oscar winner' 'Brody is'] [1] 0
+['Gardener' 'medallists Jason' 'and Mark'] [1] 0
+['Spielberg' 'air Steven' 'film Saving'] [1] 0
+['Laden' 'Osama Bin' nan] [1] 0
+['P' 'presenter Mr' nan] [1] 0
+['Joss Whedon' nan 'described the'] [1] 0
+['LewisFrancis' 'headtohead with' 'again at'] [1] 0
+['Helena BonhamCarter' 'Blanchett and' nan] [1] 0
+['Marley' 'worked with' 'from 1977'] [1] 0
+['Jupitus' 'join Phil' 'on his'] [1] 0
+['Foxx' nan 'was nominated'] [1] 0
+['Richard Gere' 'Lopez and' 'romantic comedy'] [1] 0
+['Marcia Cross' 'Housewives stars' 'and Felicity'] [1] 0
+['Peter Mandelson' 'day after' 'former Labour'] [1] 0
+['S' 'by journalist' 'Hussain Zaidi'] [1] 0
+['Tirunesh' 'record Ethiopias' 'Dibaba set'] [1] 0
+['ZetaJones' 'Catherine' 'joins the'] [1] 0
+['Saulnier' 'unseeded Cyril' 'beat the'] [1] 0
+['Serena' 'American' 'Williams also'] [1] 0
+['Christian' 'solicitor Louise' 'has raised'] [1] 0
+['Masai' 'champion Edith' nan] [1] 0
+['Berhane Adera' 'another Ethiopian' 'in Stuttgart'] [1] 0
+['Emperor' 'includes The' 'New Clothes'] [1] 0
+['Emperor New Clothes' 'includes The' 'and The'] [1] 0
+['Cosby' 'by Bill' 'moved'] [1] 0
+['Bill Cosby' 'cowritten by' 'moved'] [1] 0
+['Henry Paul' 'Barkley and' 'who'] [1] 0
+['Springer' 'show Jerry' 'The'] [1] 0
+['Director Southan Morris' nan 'and executive'] [1] 0
+['Robin Broke' 'Alva director' 'said Visits'] [1] 0
+['Peter Sellers' 'role as' 'in the'] [1] 0
+['Birthistle' 'and Eva' 'Ae Fond'] [1] 0
+['Joey' 'by understudy' 'Collins until'] [1] 0
+['Makepeace Thackeray' 'make William' 'novel Vanity'] [1] 0
+['Odense' 'hometown of' nan] [1] 0
+['Luis' 'was for' 'Bunuels The'] [1] 0
+['OConnell' 'lock Paul' nan] [1] 0
+['Guy Mansfield' 'Bar Council' 'QC has'] [1] 0
+['Gollings' 'teammate Ben' 'and Argentine'] [1] 0
+['Helena Christensen' 'Danish supermodel' 'was named'] [1] 0
+['Malcolm' 'of activist' 'X recalled'] [1] 0
+['Salam Pax' 'writing of' 'not'] [1] 0
+['Stephen Cape' 'affairs correspondent' nan] [1] 0
+['Silver' 'by Joel' 'producer of'] [1] 0
+['Dunbar' 'of Adrian' 'and Stephen'] [1] 0
+['Pepsi' 'backing singers' 'and Shirlie'] [1] 0
+['Redmayne' 'and Eddie' 'most promising'] [1] 0
+['Beaumont' 'executive John' 'was paid'] [1] 0
+['Malcolm' 'critic Derek' 'said He'] [1] 0
+['Nicola' 'Holyrood leader' 'Sturgeon wrote'] [1] 0
+['Paisley' 'Ian' nan] [1] 0
+['Greening' 'hooker Phil' 'who replaces'] [1] 0
+['Belmar' 'Richard' 'and Moazzam'] [1] 0
+['Howard' 'On Mrs' 'role Mr'] [1] 0
+['Olaf' 'uncle Count' 'played by'] [1] 0
+['Davis' 'to actor' 'Hollywood stars'] [1] 0
+['Usher' 'eight while' 'Caught Up'] [1] 0
+['Drake' 'Vera' 'scoops film'] [1] 0
+['Rubens' 'Stubbs and' 'in place'] [1] 0
+['Paul' 'and Henry' 'who'] [1] 0
+['Martin Johnson' 'Hanley and' 'dont'] [1] 0
+['Cyril Saulnier' 'But unseeded' 'beat the'] [1] 0
+['Ray Charles' 'and the' 'biopic Ray'] [1] 0
+['Christie' 'crooner Tony' 'Definitive Collection'] [1] 0
+['Dallas Roberts' 'replacing actor' 'in the'] [1] 0
+['Oliver Letwin' 'David Davis' 'and Tim'] [1] 0
+['Madonna' 'Paul Simon' 'and David'] [1] 0
+['London' 'producer Michael' 'adding they'] [1] 0
+['Roth' 'as Philip' 'The Plot'] [1] 0
+['Fellman' 'said Dan' 'president of'] [1] 0
+...Confusion Matrix...
+[[838  74]
+ [101 398]]
+...Classification Report...
+              precision    recall  f1-score   support
+
+           0       0.89      0.92      0.91       912
+           1       0.84      0.80      0.82       499
+
+   micro avg       0.88      0.88      0.88      1411
+   macro avg       0.87      0.86      0.86      1411
+weighted avg       0.88      0.88      0.88      1411
+
+...Accuracy Score...
+0.8759744861800142

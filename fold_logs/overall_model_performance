@@ -1,0 +1,15 @@
+Average of Precision for model svm is: 0.8739999999999999
+Average of Recall for model svm is: 0.9
+
+Average of Precision for model random is: 0.892
+Average of Recall for model random is: 0.808
+
+Average of Precision for model decision is: 0.689
+Average of Recall for model decision is: 0.7870000000000001
+
+Average of Precision for model logistic is: 0.876
+Average of Recall for model logistic is: 0.89
+
+Average of Precision for model linear is: 0.86
+Average of Recall for model linear is: 0.9039999999999999
+

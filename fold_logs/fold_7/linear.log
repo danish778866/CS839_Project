@@ -1,0 +1,85 @@
+...Confusion Matrix...
+[[1450   98]
+ [  55  786]]
+...Classification Report...
+              precision    recall  f1-score   support
+
+           0       0.96      0.94      0.95      1548
+           1       0.89      0.93      0.91       841
+
+   micro avg       0.94      0.94      0.94      2389
+   macro avg       0.93      0.94      0.93      2389
+weighted avg       0.94      0.94      0.94      2389
+
+...Accuracy Score...
+0.9359564671410632
+['Dimitrakopoulos' 'lawyers Michalis' nan] [1] 0
+['Major' 'and John' 'was also'] [1] 0
+['Director Southan Morris' nan 'and executive'] [1] 0
+['Day' 'actress Doris' 'he helped'] [1] 0
+['Girvan' nan 'Dempsey comes'] [1] 0
+['Pakistani' 'return for' 'help in'] [1] 0
+['June' 'Fire with' 'Carter Cash'] [1] 0
+['Usher' 'eight while' 'Caught Up'] [1] 0
+['Houston' 'the Whitney' 'film The'] [1] 0
+['Christian Olsson' 'Olympic champion' 'will not'] [1] 0
+['Cable' 'Vincent' 'for the'] [1] 0
+['Sinatra' 'starring Frank' 'and the'] [1] 0
+['Lily Tuck' nan 'The News'] [1] 0
+['Spielberg' 'air Steven' 'film Saving'] [1] 0
+['King' 'Martin Luther' 'Jnr and'] [1] 0
+['ScottThomas' 'and Kristin' nan] [1] 0
+['Venus' 'defending champion' 'Williams 63'] [1] 0
+['Hans Christian Andersen Award' 'with the' 'this spring'] [1] 0
+['Dizzee Rascal' 'list included' 'in at'] [1] 0
+['DArcy' 'Brian ODriscoll' 'failed to'] [1] 0
+['Dubs' 'if Lord' 'private members'] [1] 0
+['De' 'star Robert' 'Niro has'] [1] 0
+['JeanPierre' 'The Aviator' 'Jeunets A'] [1] 0
+['Meadows' 'Shane' 'and Kevin'] [1] 0
+['Emperor' 'includes The' 'New Clothes'] [1] 0
+['Pullman' nan 'trilogy has'] [1] 0
+['Emperor New Clothes' 'includes The' 'and The'] [1] 0
+['Hans Christian' 'of writer' 'Andersen'] [1] 0
+['Pavlikowsky' 'and Pavel' 'challenge them'] [1] 0
+['June' nan 'Carter Cash'] [1] 0
+['Sharp' 'about Becky' 'being eventually'] [1] 0
+['Mills' 'player Mike' 'was taken'] [1] 0
+['Odense' 'hometown of' nan] [1] 0
+['Christian' 'solicitor Louise' 'has raised'] [1] 0
+['Christ' 'of Jesus' 'life when'] [1] 0
+['Press' 'Drake Natalie' 'My Summer'] [1] 0
+['Greener' 'Sir Anthony' nan] [1] 0
+['Caravaggio' 'work of' 'Stubbs and'] [1] 0
+['Sella' 'But' 'added People'] [1] 0
+['Cable' 'spending Mr' 'told MPs'] [1] 0
+['Marcia Cross' 'Housewives stars' 'and Felicity'] [1] 0
+['Jr' 'Hank Williams' 'but instead'] [1] 0
+['Girin' '15yearold Vladimir' 'drowned in'] [1] 0
+['De Marigny' 'Italys' 'narrowly missed'] [1] 0
+['Gardener' 'Jason' 'and Mark'] [1] 0
+['Pepsi' 'backing singers' 'and Shirlie'] [1] 0
+['Salam Pax' 'calls himself' 'the author'] [1] 0
+['Beith' 'chairman Alan' 'said the'] [1] 0
+['Amor' nan 'who will'] [1] 0
+['Sam Younger' 'Commission chairman' 'said There'] [1] 0
+['Serwotka' 'Mark' 'from the'] [1] 0
+['Michael London' 'Sideways producer' 'adding they'] [1] 0
+['Ball' 'presenter Zoe' 'after she'] [1] 0
+['Dizzee' 'list included' 'Rascal in'] [1] 0
+['Chancellor' 'The Lord' 'Lord Falconer'] [1] 0
+...Confusion Matrix...
+[[840  68]
+ [ 40 458]]
+...Classification Report...
+              precision    recall  f1-score   support
+
+           0       0.95      0.93      0.94       908
+           1       0.87      0.92      0.89       498
+
+   micro avg       0.92      0.92      0.92      1406
+   macro avg       0.91      0.92      0.92      1406
+weighted avg       0.92      0.92      0.92      1406
+
+...Accuracy Score...
+0.9231863442389758

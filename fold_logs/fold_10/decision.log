@@ -1,0 +1,210 @@
+...Confusion Matrix...
+[[1331  290]
+ [ 180  646]]
+...Classification Report...
+              precision    recall  f1-score   support
+
+           0       0.88      0.82      0.85      1621
+           1       0.69      0.78      0.73       826
+
+   micro avg       0.81      0.81      0.81      2447
+   macro avg       0.79      0.80      0.79      2447
+weighted avg       0.82      0.81      0.81      2447
+
+...Accuracy Score...
+0.8079280751941152
+['Ensler' 'vagina Ms' 'told the'] [1] 0
+['Blears' 'Minister Hazel' 'also revealed'] [1] 0
+['Ossie Davis' 'US actor' 'found dead'] [1] 0
+['Baroness Scotland' 'Office minister' 'said Murder'] [1] 0
+['Barkley' 'Smith Olly' 'and Henry'] [1] 0
+['Michael ScottJoynt' 'Rt Rev' 'said it'] [1] 0
+['Robert De Niro' 'Film star' 'has returned'] [1] 0
+['James' 'movie starring' 'Stewart is'] [1] 0
+['Fellner' 'and Eric' 'the cochairmen'] [1] 0
+['Leigh' 'Michell Mike' 'and Pavel'] [1] 0
+['Johnny Depp' 'Theatre including' 'Cate Blanchett'] [1] 0
+['JeanMichel' '1980s including' 'Basquiat and'] [1] 0
+['Paterson' 'of fullback' nan] [1] 0
+['Bob Marley' 'reggae star' 'Rob Partridge'] [1] 0
+['Matthew' 'race director' 'Turnbull'] [1] 0
+['Emin' 'include Tracey' 'in 2002'] [1] 0
+['Helena' 'Blanchett and' 'BonhamCarter'] [1] 0
+['Saddam Hussein' 'claims that' 'had stockpiles'] [1] 0
+['Clive' 'remain with' 'Owen who'] [1] 0
+['Marie' 'who called' 'Lerois work'] [1] 0
+['Kosslick' 'But Mr' 'says more'] [1] 0
+['Meadows' 'from Shane' 'critically acclaimed'] [1] 0
+['Leigh' 'said He' 'has never'] [1] 0
+['McGregor' 'and Ewan' 'joint second'] [1] 0
+['Bruce' 'Productions partner' 'Davey said'] [1] 0
+['De Marigny' 'Italys' 'narrowly missed'] [1] 0
+['Eccleshare' 'Julia' 'chair of'] [1] 0
+['Law' 'problems Mr' 'said'] [1] 0
+['Chancellor' 'The Lord' 'Lord Falconer'] [1] 0
+['De' 'stars Robert' 'Niro Dustin'] [1] 0
+['Charles' 'soulsinger Ray' 'in Ray'] [1] 0
+['Patrick' 'announced by' 'Stewart during'] [1] 0
+['Peter' 'BBC correspondent' 'Hunt said'] [1] 0
+['Jerry Springer' 'hit show' 'The'] [1] 0
+['Portman' 'alongside Natalie' nan] [1] 0
+['Serge Betsen' 'Inspirational flanker' 'is a'] [1] 0
+['BettsGreen' 'Mr' 'of Woodbridge'] [1] 0
+['Sheerman' 'MP Barry' nan] [1] 0
+['Lawrence Dallaglio' 'England captain' 'still harbours'] [1] 0
+['Jean Reno' 'Godzilla star' 'was Frances'] [1] 0
+['Petra' 'beat Hungarian' 'Mandula on'] [1] 0
+['Noel' 'Elton John' 'Gallagher Geri'] [1] 0
+['Madeley' 'time said' nan] [1] 0
+['Joseph Fiennes' 'epic starring' 'and Kristin'] [1] 0
+['S' 'by journalist' 'Hussain Zaidi'] [1] 0
+['Hussain Zaidi' 'journalist S' 'which looks'] [1] 0
+['Svetlana' 'Open champion' 'Kuznetsova'] [1] 0
+['Cyril Saulnier' 'But unseeded' 'beat the'] [1] 0
+['Witherspoon' 'by Reese' nan] [1] 0
+['Marat Safin' 'Aussie recovery' 'admitted he'] [1] 0
+['De' 'star Robert' 'Niro has'] [1] 0
+['Judi Dench' 'Summer Dame' 'was best'] [1] 0
+['Ken' 'dispute between' 'Livingstone and'] [1] 0
+['Asplin' 'Colin' 'Blackpool Hotel'] [1] 0
+['Emperor' 'includes The' 'New Clothes'] [1] 0
+['Bruce' 'studio include' 'Springsteens Born'] [1] 0
+['Reynolds' 'exhibition of' 'work will'] [1] 0
+['Philip' 'and Prince' 'will lead'] [1] 0
+['Bill' 'dignitaries including' 'Clinton the'] [1] 0
+['Noon' 'Abbott Jamie' 'Ollie Smith'] [1] 0
+['Cross' 'stars Marcia' 'and Felicity'] [1] 0
+['Moorcroft' nan 'added It'] [1] 0
+['Reynolds' 'added Burt' 'Daviss costar'] [1] 0
+['Colin Firth' 'Nighy and' nan] [1] 0
+['Slater' nan 'to star'] [1] 0
+['HeninHardenne' 'return for' 'Olympic champion'] [1] 0
+['Khan' 'Abdul Qadeer' 'admitted leaking'] [1] 0
+['Major' 'and John' 'was also'] [1] 0
+['Stevie Wonder' 'client was' 'who recorded'] [1] 0
+['Jonathan Erlich' 'Ram and' 'are among'] [1] 0
+['Olivier Rochus' 'defeat Belgiums' '61 76'] [1] 0
+['Mansfield QC' 'Council Guy' 'has warned'] [1] 0
+['Sophie Okonedo' 'Staunton and' 'are also'] [1] 0
+['Katharine Hepburn' 'role as' 'in The'] [1] 0
+['Elvis' 'Lennon or' 'wouldnt be'] [1] 0
+['Simon' 'and Paul' 'Graceland'] [1] 0
+['Falconer' 'Lord' 'said there'] [1] 0
+['BettsGreen' 'said Mr' 'resignation followed'] [1] 0
+['Matthew Turnbull' 'race director' nan] [1] 0
+['Teri' 'Actress' 'Hatcher beat'] [1] 0
+['Alan Webb' 'leading American' 'in Boston'] [1] 0
+['Mark Philippoussis' 'sidelines Philippoussis' 'withdrew from'] [1] 0
+['DArcy' 'star Gordon' 'and Australian'] [1] 0
+['Leigh' 'Mike' 'is the'] [1] 0
+['Paterson' 'points from' 'when an'] [1] 0
+['Jack Straw' 'Foreign Secretary' 'will visit'] [1] 0
+['Jr' 'Hank Williams' 'but instead'] [1] 0
+['Mills' 'player Mike' 'was taken'] [1] 0
+['Johnny Depp' nan 'was favourite'] [1] 0
+['Edward' 'fellow producer' 'Germano who'] [1] 0
+['David Miliband' 'Profile' 'David Milibands'] [1] 0
+['MurphyOConnor' 'Cardinal Cormac' 'has said'] [1] 0
+['Osama Bin' 'in hunting' 'Laden'] [1] 0
+['Serena Williams' 'eventual champion' nan] [1] 0
+['Lily' nan 'Tucks The'] [1] 0
+['Emperor New Clothes' 'includes The' 'and The'] [1] 0
+['Bones' 'The Lovely' 'sold over'] [1] 0
+['Zellweger' 'and Renee' 'was favourite'] [1] 0
+['JeanPierre' 'directed by' 'Jeunet'] [1] 0
+['Poitier' 'starring Sydney' 'and Ruby'] [1] 0
+['Hans Christian' 'of writer' 'Andersen'] [1] 0
+['Springer' 'show Jerry' 'The'] [1] 0
+['Bob' nan 'in worldwide'] [1] 0
+['Peter' 'role as' 'Sellers in'] [1] 0
+['Paterson' 'pass from' nan] [1] 0
+['Hernandez' 'spokesman Bobby' 'said the'] [1] 0
+['Ray' 'late soulsinger' 'Charles in'] [1] 0
+['Sally Grindley' nan 'Spilled Water'] [1] 0
+['S Hussain' 'by journalist' 'Zaidi which'] [1] 0
+['Helena BonhamCarter' 'Blanchett and' nan] [1] 0
+['Gates' 'character Ben' 'chase a'] [1] 0
+['Simon' nan 'Pegg who'] [1] 0
+['Reynolds' 'Lee Burt' 'and Oscar'] [1] 0
+['Slater' nan '35 is'] [1] 0
+['Matisse' 'and Henri' nan] [1] 0
+['Van' 'filmmaker Theo' 'Goghs film'] [1] 0
+['Anne Reid' 'of Love' 'The Mother'] [1] 0
+['David Page' nan 'of Investec'] [1] 0
+['Robin Broke' 'Alva director' 'said Visits'] [1] 0
+['Blunkett' 'Secretary David' 'has given'] [1] 0
+['Conchita' 'Wimbledon champion' 'Martinez of'] [1] 0
+['Hussein' 'that Saddam' 'had stockpiles'] [1] 0
+['Edith Masai' '4km champion' nan] [1] 0
+['Sydney Poitier' 'Out starring' 'and Ruby'] [1] 0
+['Kelly' 'led to' 'Brown being'] [1] 0
+['Jonathan Erlich' 'against Israels' 'and Andy'] [1] 0
+['Warhol' 'Lichtenstein Andy' 'and Henri'] [1] 0
+['Tom' 'veteran newscasters' 'Brokaw Barbara'] [1] 0
+['Pullman' 'newspaper that' 'was happy'] [1] 0
+['Serena Williams' 'American' 'also won'] [1] 0
+['Bob' nan 'was endlessly'] [1] 0
+['De Marigny' 'converted by' nan] [1] 0
+['Felicity' 'Cross and' 'Huffman to'] [1] 0
+['Hasna' 'children Nora' 'and Guy'] [1] 0
+['Charles' '18th birthday' 'Clarke has'] [1] 0
+['OHerlihy' 'actor Dan' 'who was'] [1] 0
+['Rufus Norris' 'and Festens' 'was named'] [1] 0
+['Salam Pax' 'writing of' 'not'] [1] 0
+['Salam' 'calls himself' 'Pax the'] [1] 0
+['Hussein' 'fashion designer' 'Chalayan and'] [1] 0
+['Johnny OConnor' 'Wasps flanker' 'replacing Denis'] [1] 0
+['Svetlana' 'of the' 'Kuznetsova doping'] [1] 0
+['Reno' 'star Jean' 'was Frances'] [1] 0
+['Simon' 'Halliwell and' 'Cowell'] [1] 0
+['Blunkett' 'plan David' 'has apologised'] [1] 0
+['Bill' 'US president' 'Clinton and'] [1] 0
+['Laden' 'Osama Bin' nan] [1] 0
+['Ruth' 'Blair and' 'Kelly have'] [1] 0
+['Mansfield' 'Council Guy' 'QC has'] [1] 0
+['Edward' 'But' 'Leigh who'] [1] 0
+['Halliwell' 'Gallagher Geri' 'and Simon'] [1] 0
+['Joshua Reynolds' 'portrait Sir' 'Portrait of'] [1] 0
+['Davies' 'Quentin' 'the MP'] [1] 0
+['Nicky Wire' 'Bass player' 'will join'] [1] 0
+['Ossie Davis' 'to actor' 'at a'] [1] 0
+['Tom' 'role of' 'in the'] [1] 0
+['Charles' 'Home Secretary' 'Clarke said'] [1] 0
+['DayLewis' 'starring Daniel' nan] [1] 0
+['Tom' 'Wasps wing' 'Voyce is'] [1] 0
+['Press' 'Drake Natalie' 'My Summer'] [1] 0
+['Ray Charles' 'you for' 'for just'] [1] 0
+['Olly Barkley' 'Ollie Smith' 'and Henry'] [1] 0
+['Alfred' 'sex researcher' 'Kinsey was'] [1] 0
+['Martin Scorsese' 'DiCaprio director' 'Mr Mann'] [1] 0
+['Daveport' 'five said' nan] [1] 0
+['Zvonareva' nan 'has lost'] [1] 0
+['Pullman' 'had visited' 'who had'] [1] 0
+['Svetlana' 'fellow Russian' 'Kuznetsova'] [1] 0
+['Robert De' 'Parents stars' 'Niro Dustin'] [1] 0
+['Theresa May' 'the Family' 'said These'] [1] 0
+['Susan Chepkemei' 'marathon runner' 'after she'] [1] 0
+['Robinov' 'producer Jeff' 'told Variety'] [1] 0
+['Selma' 'by actors' 'Blair and'] [1] 0
+['Cockerell' 'Link tells' 'that she'] [1] 0
+['Zoe Ball' 'One presenter' 'after she'] [1] 0
+['Martin Scorsese' 'Director' 'The Aviator'] [1] 0
+['Marat Safin' 'Federer or' 'in the'] [1] 0
+['Charles' 'Hague and' 'Kennedy collapsed'] [1] 0
+['OConnor' nan 'will be'] [1] 0
+['OHerlihy' 'nominee Dan' 'dies Irish'] [1] 0
+...Confusion Matrix...
+[[627 113]
+ [102 273]]
+...Classification Report...
+              precision    recall  f1-score   support
+
+           0       0.86      0.85      0.85       740
+           1       0.71      0.73      0.72       375
+
+   micro avg       0.81      0.81      0.81      1115
+   macro avg       0.78      0.79      0.79      1115
+weighted avg       0.81      0.81      0.81      1115
+
+...Accuracy Score...
+0.8071748878923767

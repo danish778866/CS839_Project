@@ -1,0 +1,133 @@
+...Confusion Matrix...
+[[1522   79]
+ [ 103  726]]
+...Classification Report...
+              precision    recall  f1-score   support
+
+           0       0.94      0.95      0.94      1601
+           1       0.90      0.88      0.89       829
+
+   micro avg       0.93      0.93      0.93      2430
+   macro avg       0.92      0.91      0.92      2430
+weighted avg       0.92      0.93      0.92      2430
+
+...Accuracy Score...
+0.9251028806584363
+['Zoe Ball' 'One presenter' 'after she'] [1] 0
+['QC' 'Guy Mansfield' 'has warned'] [1] 0
+['Farrell' 'about Andy' 'not least'] [1] 0
+['JeanPierre' 'directed by' 'Jeunet'] [1] 0
+['Belmar' 'Richard' 'and Moazzam'] [1] 0
+['James' 'movie starring' 'Stewart is'] [1] 0
+['Ruth' 'Blair and' 'Kelly have'] [1] 0
+['Reese Witherspoon' 'actress' 'as'] [1] 0
+['Dame Judi' 'Last Summer' 'Dench was'] [1] 0
+['Malcolm' 'critic Derek' 'said He'] [1] 0
+['Orlando' 'British boyfriend' 'Bloom'] [1] 0
+['Hirst' 'including Damien' 'and Tracey'] [1] 0
+['Blears' 'Minister Hazel' 'also revealed'] [1] 0
+['Paul Dergarabedian' '2004 said' 'president of'] [1] 0
+['Jerry Springer' 'hit show' 'The'] [1] 0
+['James' 'Jay and' 'Bourne made'] [1] 0
+['Bush' 'of Kate' 'Hounds of'] [1] 0
+['DArcy' 'Brian ODriscoll' 'failed to'] [1] 0
+['Louise Christian' 'mens solicitor' 'has raised'] [1] 0
+['Collins' 'champion Kim' 'will compete'] [1] 0
+['Vaidyanathan' nan 'made it'] [1] 0
+['Frost' 'But David' 'director general'] [1] 0
+['Jie Zheng' 'defeated Chinas' '62 75'] [1] 0
+['Sylvia Heal' 'Deputy Speaker' 'agreed it'] [1] 0
+['Bogdanovic' 'Levy and' 'who'] [1] 0
+['Thackeray' 'William Makepeace' 'novel Vanity'] [1] 0
+['Peter' 'Rings director' 'Jackson has'] [1] 0
+['Marley' 'worked with' 'from 1977'] [1] 0
+['David Miliband' 'Profile' 'David Milibands'] [1] 0
+['Reno' 'star Jean' 'was Frances'] [1] 0
+['Doris Day' 'of actress' 'he helped'] [1] 0
+['Gram Parsons' 'worked with' 'and the'] [1] 0
+['Gorbachev' 'leader Mikhail' 'and author'] [1] 0
+['Maria McCambridge' 'Jolene Byrne' 'and Fionnualla'] [1] 0
+['Farrell' 'in signing' 'if he'] [1] 0
+['Hans Christian Andersen Award' 'with the' 'this spring'] [1] 0
+['Zhang' 'saw director' 'Yimous martial'] [1] 0
+['Begg' 'and Moazzam' 'have'] [1] 0
+['S' 'by journalist' 'Hussain Zaidi'] [1] 0
+['Lemony' 'adaptation of' 'Snicket novels'] [1] 0
+['Brandon' 'murdered transsexual' 'Teena'] [1] 0
+['Calum' nan 'MacRae surrendered'] [1] 0
+['Emperor' 'includes The' 'New Clothes'] [1] 0
+['Blunt' 'included Emily' 'and Nathalie'] [1] 0
+['Zhang' 'actress Ziyi' 'star of'] [1] 0
+['JK' 'Potter author' 'Rowling will'] [1] 0
+['Pax' 'of Salam' 'not'] [1] 0
+['Vaidyanathan' 'is Nirupama' nan] [1] 0
+['Luis Bunuel' 'was for' 'The Adventures'] [1] 0
+['Qadeer' 'scientists Abdul' 'Khan admitted'] [1] 0
+['Pakistani' 'return for' 'help in'] [1] 0
+['David Frost' 'But' 'director general'] [1] 0
+['Nathalie Press' 'Blunt and' 'who were'] [1] 0
+['Maria' 'Europe Jose' 'Pons'] [1] 0
+['Dieter Kosslick' 'Festival director' 'says this'] [1] 0
+['Law' 'starring Jude' 'and Julia'] [1] 0
+['Pat Rafter' 'Lendl and' 'to Grand'] [1] 0
+['Chuter' 'hooker George' nan] [1] 0
+['Emperor New Clothes' 'includes The' 'and The'] [1] 0
+['Bones' 'The Lovely' 'sold over'] [1] 0
+['Ray' 'late soulsinger' 'Charles in'] [1] 0
+['Salam Pax' 'writing of' 'not'] [1] 0
+['Springer' 'show Jerry' 'The'] [1] 0
+['Bradfield' 'James Dean' 'will appear'] [1] 0
+['Bruckheimer' 'with Jerry' 'who is'] [1] 0
+['Emmerson' 'Carl' 'from the'] [1] 0
+['Philip Pullman' 'adaptation of' 'His Dark'] [1] 0
+['Dame Judi' 'ceremony included' 'Dench Kim'] [1] 0
+['Farrell' 'starring Colin' 'followed last'] [1] 0
+['William' 'Charles nor' 'and Harry'] [1] 0
+['Jonathan Cope' 'Bussell and' 'are'] [1] 0
+['David Laws' 'Liberal Democrat' 'said it'] [1] 0
+['Collins' nan 'to compete'] [1] 0
+['Jake White' nan 'claimed the'] [1] 0
+['Farrell' 'captain Andy' 'possible switch'] [1] 0
+['Selma' 'by actors' 'Blair and'] [1] 0
+['Amma' 'British writerdirector' 'Asante won'] [1] 0
+['Bush' 'George W' 'and the'] [1] 0
+['Odense' 'hometown of' nan] [1] 0
+['Helena Christensen' 'Danish supermodel' 'was named'] [1] 0
+['Marley' 'star Bob' 'Rob Partridge'] [1] 0
+['Collins' 'Tim' 'the shadow'] [1] 0
+['Malcolm' 'Jnr and' 'X'] [1] 0
+['Pattison' 'Substitute Joe' 'who'] [1] 0
+['HeninHardenne' 'return for' 'Olympic champion'] [1] 0
+['Santa' 'to meet' 'Claus'] [1] 0
+['Spielberg' 'air Steven' 'film Saving'] [1] 0
+['Page' 'David' 'of Investec'] [1] 0
+['Paisley' 'Ian' nan] [1] 0
+['Witherspoon' 'Reese' 'as'] [1] 0
+['Albert' 'down to' 'Costa'] [1] 0
+['Christ' 'of Jesus' 'life when'] [1] 0
+['Yachvili' 'scrumhalf Dimitri' 'continues in'] [1] 0
+['Theresa May' 'the Family' 'said These'] [1] 0
+['Dominick' 'Europe Director' 'Chilcott will'] [1] 0
+['Ziyi Zhang' 'Chinese actress' 'star of'] [1] 0
+['Lyra Belacqua' 'school child' nan] [1] 0
+['Law' 'starring Jude' 'and Dustin'] [1] 0
+['LewisFrancis' 'and Mark' nan] [1] 0
+['JK' 'have included' 'Rowling Jacqueline'] [1] 0
+['David Kahn' 'backed by' 'a'] [1] 0
+['McGraw' 'with Tim' nan] [1] 0
+['James' 'and guitarist' 'Dean Bradfield'] [1] 0
+...Confusion Matrix...
+[[763  42]
+ [ 67 331]]
+...Classification Report...
+              precision    recall  f1-score   support
+
+           0       0.92      0.95      0.93       805
+           1       0.89      0.83      0.86       398
+
+   micro avg       0.91      0.91      0.91      1203
+   macro avg       0.90      0.89      0.90      1203
+weighted avg       0.91      0.91      0.91      1203
+
+...Accuracy Score...
+0.9093931837073982
