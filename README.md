@@ -6,9 +6,31 @@
 3. [Swati Mishra](https://github.com/mishra-swati)
 
 ## Building and Running
+
+### Clone Repository
 ```
 > git clone https://github.com/danish778866/CS839_Project.git
 > cd CS839_Project
+```
+
+### Install Dependencies
+```
+> pip install -U scikit-learn
+> pip install -U nltk
+> pip install -U gensim
+> python
+> import nltk
+> nltk.download('wordnet') # Download NLTK Wordnet Corpus
+```
+
+### Combine word2vec Google Model
+```
+> cd models/third_party
+> cat word2vec_google_* > GoogleNews-vectors-negative300.bin
+```
+
+### Run
+```
 > src/run.sh -h # Get help text
 ```
 
@@ -18,7 +40,6 @@ The problem statement for each stage of this project can be found [here](https:/
 ## Organization
 The organization of this repository is as follows:
 * `README.md`: This README file.
-* `build.sbt`: The build file for building with `sbt`.
 * `stage_1`: The stage\_1 folder containing the following parts:
   - `src`: The folder containing the source code for stage 1.
   - `data`: The folder containing data retrieved and labeled for stage 1.
