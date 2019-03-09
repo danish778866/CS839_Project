@@ -1,0 +1,94 @@
+...Confusion Matrix...
+[[1474  106]
+ [  64  763]]
+...Classification Report...
+              precision    recall  f1-score   support
+
+           0       0.96      0.93      0.95      1580
+           1       0.88      0.92      0.90       827
+
+   micro avg       0.93      0.93      0.93      2407
+   macro avg       0.92      0.93      0.92      2407
+weighted avg       0.93      0.93      0.93      2407
+
+...Accuracy Score...
+0.9293726630660574
+['Venus' nan 'stunned by'] [1] 0
+['OSullivan' nan 'will also'] [1] 0
+['Michalis Dimitrakopoulos' 'their lawyers' nan] [1] 0
+['Natalie Press' 'Vera Drake' 'My Summer'] [1] 0
+['Sylvia' 'Deputy Speaker' 'Heal agreed'] [1] 0
+['Dame Judi' 'Last Summer' 'Dench was'] [1] 0
+['Warnock' 'however when' 'struck a'] [1] 0
+['Count' 'wicked uncle' 'Olaf played'] [1] 0
+['Jnr' 'Luther King' 'and Malcolm'] [1] 0
+['Pavlikowsky' 'and Pavel' 'challenge them'] [1] 0
+['D' 'rapper Asher' nan] [1] 0
+['King Jnr' 'Martin Luther' 'and Malcolm'] [1] 0
+['Weston' 'substitute Jonny' 'had set'] [1] 0
+['Sharp' 'about Becky' 'being eventually'] [1] 0
+['DArcy' 'Brian ODriscoll' 'failed to'] [1] 0
+['Hans Christian Andersen Award' 'with the' 'this spring'] [1] 0
+['JeanMichel' '1980s including' 'Basquiat and'] [1] 0
+['Gorbachev' 'leader Mikhail' 'and author'] [1] 0
+['JeanPierre' 'starred in' 'Jeunets A'] [1] 0
+['Joss' nan 'Whedon described'] [1] 0
+['Joseph Dias' 'commercial use' 'general secretary'] [1] 0
+['Emperor' 'includes The' 'New Clothes'] [1] 0
+['Obikwelu' 'when Francis' 'came up'] [1] 0
+['Malcolm X' 'Jnr and' nan] [1] 0
+['Dias' 'use Joseph' 'general secretary'] [1] 0
+['Pullman' 'of Philip' 'His Dark'] [1] 0
+['Christian' 'Olympic champion' 'Olsson will'] [1] 0
+['Saumarez' 'Mr' 'Smith added'] [1] 0
+['Olly' 'gone for' 'because of'] [1] 0
+['Emperor New Clothes' 'includes The' 'and The'] [1] 0
+['Bones' 'The Lovely' 'sold over'] [1] 0
+['QC' 'Guy Mansfield' 'has warned'] [1] 0
+['MurphyOConnor' 'Cardinal Cormac' 'has said'] [1] 0
+['Laden' 'Osama Bin' nan] [1] 0
+['Vera Drake' nan 'scoops film'] [1] 0
+['Theresa May' 'the Family' 'said These'] [1] 0
+['Fionnualla' 'McCambridge and' 'Britton are'] [1] 0
+['Meadows' 'from Shane' 'critically acclaimed'] [1] 0
+['Robin Broke' 'Alva director' 'said Visits'] [1] 0
+['Serwotka' 'Mark' 'from the'] [1] 0
+['David Laws' 'Liberal Democrat' 'said it'] [1] 0
+['Odense' 'hometown of' nan] [1] 0
+['Mark Serwotka' nan 'from the'] [1] 0
+['Cross' 'stars Marcia' 'and Felicity'] [1] 0
+['Rock' 'comedian Chris' 'will host'] [1] 0
+['Lichtenstein' 'by Roy' 'Andy Warhol'] [1] 0
+['King' 'by Claude' nan] [1] 0
+['Jonny Weston' 'Borders substitute' 'had set'] [1] 0
+['John Beaumont' 'Chief executive' 'was paid'] [1] 0
+['Mefin' 'someone of' 'experience in'] [1] 0
+['Younger' 'chairman Sam' 'said There'] [1] 0
+['Spielberg' 'air Steven' 'film Saving'] [1] 0
+['Saumarez' 'Mr' 'Smith said'] [1] 0
+['Delta Goodrem' 'McFadden and' 'fell from'] [1] 0
+['X' 'activist Malcolm' 'recalled the'] [1] 0
+['Warnock' 'Ally' 'clawed back'] [1] 0
+['DArcy' nan 'injury adds'] [1] 0
+['X' 'and Malcolm' nan] [1] 0
+['Fish' 'friend Mardy' 'and was'] [1] 0
+['Drake' 'Vera' 'scoops film'] [1] 0
+['Rubens' 'Stubbs and' 'in place'] [1] 0
+['Grove' 'director Elliot' nan] [1] 0
+['Ally Warnock' nan 'clawed back'] [1] 0
+['Rock' 'fears that' 'who is'] [1] 0
+...Confusion Matrix...
+[[843  43]
+ [ 38 394]]
+...Classification Report...
+              precision    recall  f1-score   support
+
+           0       0.96      0.95      0.95       886
+           1       0.90      0.91      0.91       432
+
+   micro avg       0.94      0.94      0.94      1318
+   macro avg       0.93      0.93      0.93      1318
+weighted avg       0.94      0.94      0.94      1318
+
+...Accuracy Score...
+0.9385432473444613

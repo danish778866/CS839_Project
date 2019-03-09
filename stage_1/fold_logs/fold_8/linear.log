@@ -1,0 +1,91 @@
+...Confusion Matrix...
+[[1415  110]
+ [  61  777]]
+...Classification Report...
+              precision    recall  f1-score   support
+
+           0       0.96      0.93      0.94      1525
+           1       0.88      0.93      0.90       838
+
+   micro avg       0.93      0.93      0.93      2363
+   macro avg       0.92      0.93      0.92      2363
+weighted avg       0.93      0.93      0.93      2363
+
+...Accuracy Score...
+0.927634363097757
+['Masai' nan 'missed Kenyas'] [1] 0
+['JeanMichel' '1980s including' 'Basquiat and'] [1] 0
+['Jr' 'Hank Williams' 'but instead'] [1] 0
+['Likhotseva' 'beating Elene' 'of Russia'] [1] 0
+['Costa' 'Spaniard' 'will next'] [1] 0
+['Dubs' 'back Lord' 'Succession to'] [1] 0
+['De Marigny' 'through a' 'penalty'] [1] 0
+['Dame Judi' 'Last Summer' 'Dench was'] [1] 0
+['Adera' 'Ethiopian Berhane' 'in Stuttgart'] [1] 0
+['Santa' 'to meet' 'Claus'] [1] 0
+['Lyra Belacqua' 'school child' nan] [1] 0
+['Elvis' 'SonyBMGs new' 'campaign'] [1] 0
+['Van' 'filmmaker Theo' 'Goghs film'] [1] 0
+['Saumarez' 'Mr' 'Smith added'] [1] 0
+['HeninHardenne' 'champion Justine' 'will return'] [1] 0
+['Pakistani' 'return for' 'help in'] [1] 0
+['Elvis' nan 'set to'] [1] 0
+['Delta' 'McFadden and' 'Goodrem fell'] [1] 0
+['Reno' 'star Jean' 'was Frances'] [1] 0
+['June' 'Fire with' 'Carter Cash'] [1] 0
+['Bunuel' 'for Luis' 'The Adventures'] [1] 0
+['Robin Broke' 'Alva director' 'said Visits'] [1] 0
+['Hans Christian Andersen Award' 'with the' 'this spring'] [1] 0
+['Noon' 'Abbott Jamie' 'Ollie Smith'] [1] 0
+['Dubs' 'Lord' 'agreed to'] [1] 0
+['Lily' nan 'Tucks The'] [1] 0
+['Luther King Jnr' 'both Martin' 'and Malcolm'] [1] 0
+['Emperor' 'includes The' 'New Clothes'] [1] 0
+['Major' 'that John' 'and his'] [1] 0
+['Emperor New Clothes' 'includes The' 'and The'] [1] 0
+['Bones' 'The Lovely' 'sold over'] [1] 0
+['Courier' 'to Jim' 'in the'] [1] 0
+['Amor' nan 'who will'] [1] 0
+['Girvan' nan 'Dempsey comes'] [1] 0
+['Wonder' 'with Stevie' nan] [1] 0
+['Dimitrakopoulos' 'lawyers Michalis' nan] [1] 0
+['Sydney Poitier' 'Out starring' 'and Ruby'] [1] 0
+['Weston' 'substitute Jonny' 'had set'] [1] 0
+['Odense' 'hometown of' nan] [1] 0
+['Carolina' 'Swedens' 'Kluft the'] [1] 0
+['Pullman' 'God but' 'has denied'] [1] 0
+['Scotland' 'minister Baroness' 'said Murder'] [1] 0
+['High' nan 'the Rugby'] [1] 0
+['Hasna' 'children Nora' 'and Guy'] [1] 0
+['Osama Bin Laden' 'in hunting' nan] [1] 0
+['Major' 'in John' 'government'] [1] 0
+['Masai' 'champion Edith' nan] [1] 0
+['Girin' '15yearold Vladimir' 'drowned in'] [1] 0
+['Saumarez' 'Mr' 'Smith said'] [1] 0
+['Sveta' 'talk to' 'at all'] [1] 0
+['Paisley' 'Ian' nan] [1] 0
+['Martin Luther King Jnr' 'of both' 'and Malcolm'] [1] 0
+['Dubs' 'by Lord' 'were a'] [1] 0
+['Vera Drake' nan 'scoops film'] [1] 0
+['Drake' 'Vera' 'scoops film'] [1] 0
+['Director Southan' nan 'Morris and'] [1] 0
+['Selma' 'by actors' 'Blair and'] [1] 0
+['JK' 'have included' 'Rowling Jacqueline'] [1] 0
+['Dallas Roberts' 'replacing actor' 'in the'] [1] 0
+['London' 'producer Michael' 'adding they'] [1] 0
+['Prince' 'Queen and' 'Philip will'] [1] 0
+...Confusion Matrix...
+[[988  80]
+ [ 42 427]]
+...Classification Report...
+              precision    recall  f1-score   support
+
+           0       0.96      0.93      0.94      1068
+           1       0.84      0.91      0.88       469
+
+   micro avg       0.92      0.92      0.92      1537
+   macro avg       0.90      0.92      0.91      1537
+weighted avg       0.92      0.92      0.92      1537
+
+...Accuracy Score...
+0.9206245933636955

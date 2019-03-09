@@ -1,5 +1,5 @@
-data/*
-!data/train/*.txt
-!data/test/*.txt
-!data/all_docs/*.txt
-models/third_party/*
+stage_1/data/*
+!stage_1/data/train/*.txt
+!stage_1/data/test/*.txt
+!stage_1/data/all_docs/*.txt
+stage_1/models/third_party/*

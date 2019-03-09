@@ -1,0 +1,97 @@
+...Confusion Matrix...
+[[1454  120]
+ [  67  774]]
+...Classification Report...
+              precision    recall  f1-score   support
+
+           0       0.96      0.92      0.94      1574
+           1       0.87      0.92      0.89       841
+
+   micro avg       0.92      0.92      0.92      2415
+   macro avg       0.91      0.92      0.92      2415
+weighted avg       0.92      0.92      0.92      2415
+
+...Accuracy Score...
+0.9225672877846791
+['Jie' 'defeated Chinas' 'Zheng 62'] [1] 0
+['Habsudova' 'and Karina' 'beat France'] [1] 0
+['JeanMichel' '1980s including' 'Basquiat and'] [1] 0
+['Girin' '15yearold Vladimir' 'drowned in'] [1] 0
+['Dame Judi' 'Last Summer' 'Dench was'] [1] 0
+['HeninHardenne' 'champion Justine' 'is also'] [1] 0
+['Livingstone' 'apology Ken' 'should stick'] [1] 0
+['Christ' 'of Jesus' 'life when'] [1] 0
+['Robin Broke' 'Alva director' 'said Visits'] [1] 0
+['Fox' 'Dr' 'accused Mr'] [1] 0
+['Dizzee' 'list included' 'Rascal in'] [1] 0
+['DArcy' nan 'injury adds'] [1] 0
+['Jesus Christ' 'hours of' 'life when'] [1] 0
+['BettsGreen' 'Nicholas' 'who had'] [1] 0
+['Bell' 'chief David' 'accused some'] [1] 0
+['MurphyOConnor' 'Cardinal Cormac' 'has said'] [1] 0
+['Serwotka' 'Mark' 'from the'] [1] 0
+['Fox' 'cochairman Liam' 'was speaking'] [1] 0
+['Count' 'wicked uncle' 'Olaf played'] [1] 0
+['Lemony Snicket' 'adaptation of' 'novels has'] [1] 0
+['Hans Christian Andersen Award' 'with the' 'this spring'] [1] 0
+['Christian' 'Olympic champion' 'Olsson will'] [1] 0
+['Brockstein' 'winner Steve' 'cover of'] [1] 0
+['Weston' 'substitute Jonny' 'had set'] [1] 0
+['Emperor' 'includes The' 'New Clothes'] [1] 0
+['Asagoe' 'beat Shinobu' '64 64'] [1] 0
+['June' 'Fire with' 'Carter Cash'] [1] 0
+['Carolina' 'Swedens' 'Kluft the'] [1] 0
+['Fox' 'Dr' 'told BBC'] [1] 0
+['Emperor New Clothes' 'includes The' 'and The'] [1] 0
+['Bones' 'The Lovely' 'sold over'] [1] 0
+['Noon' 'Abbott Jamie' 'Ollie Smith'] [1] 0
+['JeanPierre' 'directed by' 'Jeunet'] [1] 0
+['Cook' nan 'also added'] [1] 0
+['Van Gogh' nan 'was shot'] [1] 0
+['Hier' 'Rabbi Marvin' 'founder of'] [1] 0
+['Helena BonhamCarter' 'Blanchett and' nan] [1] 0
+['Mansfield' 'Council Guy' 'QC has'] [1] 0
+['Sydney Poitier' 'Out starring' 'and Ruby'] [1] 0
+['Frank Sinatra' 'film starring' 'and the'] [1] 0
+['Guy Mansfield QC' 'Bar Council' 'has warned'] [1] 0
+['Odense' 'hometown of' nan] [1] 0
+['Cook' 'their mugs' 'explained'] [1] 0
+['Bush' 'George W' 'Mr Kennedy'] [1] 0
+['Broke' 'director Robin' 'said Visits'] [1] 0
+['Evans Jr' 'Charles' 'battled over'] [1] 0
+['Amor' 'player Simon' 'beat teammate'] [1] 0
+['DeMille' 'Cecil B' 'award for'] [1] 0
+['Belacqua' 'child Lyra' nan] [1] 0
+['Delta Goodrem' 'McFadden and' 'fell from'] [1] 0
+['Joseph Dias' 'commercial use' 'general secretary'] [1] 0
+['JK Rowling' 'Potter author' 'will receive'] [1] 0
+['Laden' 'Osama Bin' nan] [1] 0
+['Bunuel' 'for Luis' 'The Adventures'] [1] 0
+['Ziyi' 'Chinese actress' 'Zhang star'] [1] 0
+['Likhotseva' 'beating Elene' 'of Russia'] [1] 0
+['Frost' 'But David' 'director general'] [1] 0
+['Bin Laden' 'hunting Osama' nan] [1] 0
+['Guy Mansfield' 'Bar Council' 'QC has'] [1] 0
+['Paisley' 'Ian' nan] [1] 0
+['Sveta' 'talk to' 'at all'] [1] 0
+['Pakistani' 'return for' 'help in'] [1] 0
+['ScottThomas' 'and Kristin' nan] [1] 0
+['Director Southan Morris' nan 'and executive'] [1] 0
+['JK' 'have included' 'Rowling Jacqueline'] [1] 0
+['QC' 'Guy Mansfield' 'has warned'] [1] 0
+['De' 'stars Robert' 'Niro Dustin'] [1] 0
+...Confusion Matrix...
+[[747  79]
+ [ 35 417]]
+...Classification Report...
+              precision    recall  f1-score   support
+
+           0       0.96      0.90      0.93       826
+           1       0.84      0.92      0.88       452
+
+   micro avg       0.91      0.91      0.91      1278
+   macro avg       0.90      0.91      0.90      1278
+weighted avg       0.91      0.91      0.91      1278
+
+...Accuracy Score...
+0.9107981220657277
