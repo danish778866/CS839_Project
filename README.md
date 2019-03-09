@@ -13,7 +13,7 @@
 ```
 
 ## Problem
-The problem statements for each stage of this project can be found [here](https://sites.google.com/site/anhaidgroup/courses/cs-838-spring-2019/project-description)
+The problem statement for each stage of this project can be found [here](https://sites.google.com/site/anhaidgroup/courses/cs-838-spring-2019/project-description).
 
 ## Organization
 The organization of this repository is as follows:
