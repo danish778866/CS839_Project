@@ -37,6 +37,5 @@ The organization of this stage is as follows:
 * `data`: The folder containing data retrieved and labeled for stage 1.
 * `fold_logs`: The folder containing cross validation logs.
 * `logs`: The folder containing accuracy logs for different classifiers.
-* `models`: The folder containing models that were trained on the train data
-* set.
+* `models`: The folder containing models that were trained on the train dataset.
 * `report.pdf`: The stage 1 report.
