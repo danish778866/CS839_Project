@@ -1,4 +1,4 @@
-# [CS839 Data Science Project Stage2](https://danish778866.github.io/DataScience/stage_2.html)
+# [CS839 Data Science Project Stage 2](https://danish778866.github.io/DataScience/stage_2.html)
 
 ## Building and Running
 
