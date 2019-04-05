@@ -12,5 +12,5 @@ The problem statement for each stage of this project can be found
 ## Organization
 The organization of this repository is as follows:
 * `README.md`: This README file.
-* `stage_1`: Files pertaining to project stage\_1.
-* `stage_2`: Files pertaining to project stage\_2.
+* `stage_1`: Files pertaining to project stage 1.
+* `stage_2`: Files pertaining to project stage 2.
