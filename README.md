@@ -1,50 +1,16 @@
-# CS839 Data Science Project
+# [CS839 Data Science Project](https://danish778866.github.io/DataScience/)
 
 ## Group members
 1. [Mohammed Danish Shaikh](https://github.com/danish778866)
 2. [Somya Arora](https://github.com/srora)
 3. [Swati Mishra](https://github.com/mishra-swati)
 
-## Building and Running
-
-### Clone Repository
-```
-> git clone https://github.com/danish778866/CS839_Project.git
-> cd CS839_Project
-```
-
-### Install Dependencies
-```
-> pip install -U scikit-learn
-> pip install -U nltk
-> pip install -U gensim
-> python
-> import nltk
-> nltk.download('wordnet') # Download NLTK Wordnet Corpus
-```
-
-### Combine word2vec Google Model
-```
-> cd models/third_party
-> cat word2vec_google_* > GoogleNews-vectors-negative300.bin
-```
-
-### Run
-```
-> src/run.sh -h # Get help text
-```
-
 ## Problem
-The problem statement for each stage of this project can be found [here](https://sites.google.com/site/anhaidgroup/courses/cs-838-spring-2019/project-description).
+The problem statement for each stage of this project can be found 
+[here](https://sites.google.com/site/anhaidgroup/courses/cs-838-spring-2019/project-description).
 
 ## Organization
 The organization of this repository is as follows:
 * `README.md`: This README file.
-* `stage_1`: The stage\_1 folder containing the following parts:
-  - `src`: The folder containing the source code for stage 1.
-  - `data`: The folder containing data retrieved and labeled for stage 1.
-  - `fold_logs`: The folder containing cross validation logs.
-  - `logs`: The folder containing accuracy logs for different classifiers.
-  - `models`: The folder containing models that were trained on the train data
-    set.
-  - `report.pdf`: The stage 1 report.
+* `stage_1`: Files pertaining to project stage\_1.
+* `stage_2`: Files pertaining to project stage\_2.
